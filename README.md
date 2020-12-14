@@ -18,17 +18,15 @@
 
 :watermelon:ভ্যারিয়েবলের নাম অক্ষর দিয়ে শুরু হতে পারবে, তবে নাম্বার,স্পেশাল ক্যারেক্টার !, @, #, %, ^, &, *, (, ) দিয়ে শুরু হতে পারবে না।কিন্তু ‘_’(আন্ডারস্কোর) ও ‘$’ (ডলার সাইন) ইউজ করে শুরু করতে পারবেন।Example:point_down:
 >var name='mahmud'
-
-console.log(name)
+>console.log(name)
 
 
 >var f_name=name;
-
-console.log(f_name)
+>console.log(f_name)
 
 
 >var _name=name;
-console.log(_name)
+>console.log(_name)
 
 
 >var l$name=name;
