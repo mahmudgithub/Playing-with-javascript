@@ -678,7 +678,6 @@ last name */
 // }
 
 
-
 // // function in object
 // var all={
 // 	name:'mahmud',
@@ -691,7 +690,6 @@ last name */
 // all.one()
 
 
-
 // এখন অবজেক্ট এতোই ফ্লেক্সিবল যে আপনি চাইলে অবজেক্ট এর ভিতরে অ্যারেও ইউজ করতে পারবেন
 // আবার অ্যারের ভিতরেও অবজেক্ট ইউজ করতে পারবেন।
 // var cool={
@@ -700,3 +698,42 @@ last name */
 // }
 // console.log(cool.arr[5])
 // console.log(cool.name)
+
+
+
+// // জাভাস্ক্রিপ্টঃ ব্যাসিক ফাংশন
+// // ফাংশনকে একটা ম্যাশিনের সাথে তুলনা করতে পারেন। 
+// // এখানে আপনি জাস্ট কিছু ইনপুট দিবেন আর সেটা আপনাকে আপনার মতো করে আউটপুট দিবে।
+// // function funcName() {
+// //    //Statements
+// // }
+// // এভাবে ফাংশন ডিক্লেয়ার করাকে ফাংশন স্টেটমেন্ট বলে।
+// function student(){
+// 	var name='mahmud'
+
+// 	console.log(name)
+// }
+// student()
+
+
+// // আবার এভাবেও ফাংশন ডিক্লেয়ার করতে পারিঃ
+// // var funcName = function() {
+// //    //Statement
+// // }
+// var student=function(){
+// 	name='mahmud'
+
+// 	console.log(name);
+// }
+// student()
+
+
+
+// // use return keyword
+// // var names;
+// function student(x,y){
+// 	var sum=x+y;
+// 	return sum;
+// }
+// console.log(student(2,2));
+
