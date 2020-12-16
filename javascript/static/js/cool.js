@@ -737,3 +737,117 @@ last name */
 // }
 // console.log(student(2,2));
 
+
+
+// জাভাস্ক্রিপ্ট অ্যাডভান্সঃ ‘this’ কীওয়ার্ড
+// সাধারণত একটা ফাংশনকে কিভাবে কল করা হচ্ছে সেটার উপর ভিত্তি করে this এর ভ্যালু ডিটারমাইন করা হয়। 
+// আর এটার ভ্যালু ডিটারমাইন করা হয় এক্সিকিউশনের সময়।
+// শুধুমাত্র নিচের এই চারটা রুলস মনে রাখবেন যেগুলো দিয়ে this এর ভ্যালু ডিটারমাইন করা যাবেঃ
+// ১। গ্লোবাল রুলস
+// ২। অবজেক্ট রুলস
+// ৩। স্পষ্ট রুলস
+// ৪। new কীওয়ার্ড রুলস
+// var myCustomObj = {
+//    name: 'Zonayed Ahmed',
+//    age: 21,
+//    job: 'Student',
+//    msg: function() {
+//         console.log(this.job);
+//    }
+// }
+// myCustomObj.msg();
+
+
+// var myCustomObj = {
+//    name: 'Zonayed Ahmed',
+//    age: 21,
+//    job: 'Student',
+//    anotherObj: {
+//       name: 'Ahmed Zonayed',
+//       msg: function() {
+//          console.log('My name is: ' + this.name);
+//       }
+//    }
+// }
+// myCustomObj.anotherObj.msg();
+
+
+
+//****************************pactics more and more 
+// //a function store in a variable
+// function student(name,roll,age){
+// 	return 'name is :'+name+',  roll is :'+roll+',  age is: '+age;
+// }
+// var x=student('mahmud',12345,100);
+// console.log(x);
+// document.getElementById('test').innerHTML=x;
+
+
+// //a function store in an array
+// function one(name,age,roll){
+// 	return name+age+roll;
+// }
+// var x=one('mahmud',12345,100);
+// var arr=[1,2,3,4,5]
+// arr.push(x)
+// console.log(arr)
+// document.getElementById('test').innerHTML=arr
+
+
+// // //a function can be store in an object
+// var person={
+
+// 	name:'mahmud',
+// 	one:function(){
+// 		console.log('hello  '+this.name);
+// 	}
+// }
+// var x=person;
+// x.one();
+
+
+// // //add a function with a variable or self invocking function
+// var x=(function(){ return 'hello'})();
+// console.log(x)
+// //another example of summ
+// var x=10+(function(){return 10})();
+// console.log(x)
+
+
+
+// //a function can be use as anher function argument
+// function one(){
+// 	return 'hello';
+// }
+// one()
+// // console.log(one());
+
+// function two(name,fun){
+// 	return fun + name;
+// }
+// var s=two('mahmud',one());
+// console.log(s);
+
+// //another example by invoking function
+// var x=10+(function(){return 10})();  //1st invoking function
+// var y=function(name,fun){            //2nd function
+// 	return name + fun; 
+// }
+// var s=y('mahmud',x)
+// console.log(s);
+
+
+// //higher order function concept
+// function one(a){
+// 	return function(b){
+// 		var result =1;
+// 	for (var i=0; i<a; i++){
+// 		console.log(i);
+// 		result *=b;
+// 	}
+// 	return result;
+
+// 	}
+// }
+// var s=one(20);
+// s();
