@@ -851,3 +851,79 @@ last name */
 // }
 // var s=one(20);
 // s();
+
+
+
+// //concept of nested /inner-outer function
+// function outer(){
+// 	console.log('i am outer')
+// 	function inner(){
+// 		console.log('i am inner ')
+// 	}
+// 	inner()
+// }
+// outer()
+
+// //another example ,use of inner function
+// function result(a,b){
+// 	function add(){
+// 		return a+b;
+// 	}
+
+// 	function sub(){
+// 		return a-b;
+// 	}
+// 	function mul(){
+// 		return a*b;
+// 	}
+// 	function div(){
+// 		return a/b;
+// 	}
+
+// 	return sub()+add()+mul()+div();
+// }
+// var s=result(10,2);
+// console.log(s);
+
+
+// //use of return statement 
+// function one(name,gender){
+
+// 	if (gender=='male'){
+// 	return 	'he is '+ name+'and sex is '+gender;
+//     }
+
+		
+// 	else if (gender=='female'){
+// 	return 'she is '+ name+'and sex is '+gender;	
+// 	}
+
+
+// }
+// var s=one('mahmd','male');
+// var p=one('mahmuda','female');
+// console.log(s);
+// console.log(p);
+
+// //same function in different way 
+// function one(name,gender){
+
+// 	var x;
+
+// 	if (gender=='male'){
+// 	x='he is '+ name+'and sex is '+gender;
+//     }
+
+		
+// 	else if (gender=='female'){
+// 	x='she is '+ name+'and sex is '+gender;	
+// 	}
+// return x;
+
+// }
+// var s=one('mahmd','male');
+// var p=one('mahmuda','female');
+// console.log(s);
+// console.log(p);
+
+
