@@ -923,3 +923,14 @@
 //but it not work
 // x();
 // var x=function(){console.log('hello')};
+
+// pactics of hoisting
+name;
+console.log('example of variable hoisting');
+var name;
+
+fn();
+function fn(){console.log('example of function hoisting')};
+
+fun('mahmud');
+function fun(fname){console.log(`i am ${fname}`)};
