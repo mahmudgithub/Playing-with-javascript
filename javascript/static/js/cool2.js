@@ -939,5 +939,18 @@
 // var x=function (){console.log('hello')}
 
 
-fun('mahmd');
-function fun (name){console.log(`my name is ${name}`)}
+// fun('mahmd');
+// function fun (name){console.log(`my name is ${name}`)}
+
+// var x;
+// for(x=0;x<10;x++){console.log(x)}
+
+// for (var x=0; x<10; x++){console.log(x)}
+
+// var s=10;
+// for(var i=0; i<s; i++){console.log(i)}
+
+// var arr=['mahmud','hossain','lamyaa','nowsin']
+// for (var i=0; i<arr.length;i++){console.log(arr[i])};
+
+for(var i=0;i<10;i++){console.log('hu')}
