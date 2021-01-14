@@ -919,5 +919,7 @@
 // lol();
 // function lol(){console.log('hello')};
 
-x.fn();
-var x=function fn(){console.log('hello')};
+
+//but it not work
+// x();
+// var x=function(){console.log('hello')};
