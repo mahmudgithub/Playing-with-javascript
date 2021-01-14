@@ -926,4 +926,47 @@ last name */
 // console.log(s);
 // console.log(p);
 
+// //fist program ,how can show output in consol and webpage
+// console.log('hello')
+// document.getElementById('test').innerHTML=('hello');
 
+// //how to define and accss array
+// var name=['mahmud','hossain','lamyaa','niva']
+// console.log(name)
+// console.log(name[0])
+
+// console.log(this)
+// function helloThis(){
+// 	'use strict';
+//    console.log(this);
+// }
+
+// helloThis();
+
+
+// console.dir(document);
+// console.log(document);
+
+//call back function
+// function one(x){
+// 	two(x)
+	
+// }
+// one('mahmud');
+
+// function two(y){
+
+// console.log(y);
+// }
+
+function one(name,two){
+	two(name);
+}
+
+one('mahmud',function(name){
+	console.log('hello  '+name);
+});
+
+one('mahmud',function(name){
+	console.log('hi  '+name);
+});

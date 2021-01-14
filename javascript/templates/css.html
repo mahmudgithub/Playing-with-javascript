@@ -1,0 +1,526 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+   
+<style type="text/css" media="screen">
+   body {
+    background: #FFFAD5;
+    color: black;
+   }
+.wrapper {
+  height: 100%;
+  display: table;
+  width: 100%;
+  text-align: center;
+}
+.header {
+  display: table-row;
+  height: 100px;
+  background: #FFD34E;
+}
+.main {
+  height: 100%;
+  display: table;
+  width: 100%;
+}
+.box {
+  display: table-cell;
+}
+.sidebar {
+  width: 20%;
+  background: #BD4932;
+}
+.footer {
+  display: table-row;
+  height: 50px;
+  background: #105B63;
+  color: #FFFAD5;
+}
+/*====== Ignore section below ======*/
+/* Basic Style*/
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+    </style>
+</head>
+<body>
+<div class="wrapper">
+  <div class="header">HEADER</div>
+  <div class="main">
+    <div class="box sidebar">Left-sidebar</div>
+    <div class="box content">Main Content</div>
+    <div class="box sidebar">Right-sidebar</div>
+  </div>
+  <div class="footer">FOOTER</div>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+<!-- <style>
+body {
+/*background-image: url("http://w3programmers.com/bangla/wp-content/uploads/2018/12/css-backgrounds.jpg");*/
+background-image: url("static/media/love.JPG");
+/*background-position: center;*/
+background-repeat: no-repeat;
+/*background-attachment: fixed;*/
+
+background-attachment: scroll;
+
+}
+</style> -->
+
+
+
+<!-- <style>
+#example1 {
+  border: 1px solid black;
+  background:url("static/media/love.JPG");
+  background-size: 100px 80px;
+  background-repeat: no-repeat;
+  padding:15px;
+  background-size: contain;
+}
+</style> -->
+
+<!-- <style>
+#example1 {
+  border: 10px solid black;
+  padding: 35px;
+  background: url(http://w3programmers.com/bangla/wp-content/uploads/2018/12/img_flwr.gif);
+  background-repeat: no-repeat;
+  background-origin: padding-box;
+}
+ 
+#example2 {
+  border: 10px solid black;
+  padding: 35px;
+  background: url(http://w3programmers.com/bangla/wp-content/uploads/2018/12/img_flwr.gif);
+  background-repeat: no-repeat;
+  background-origin: border-box;
+}
+ 
+#example3 {
+  border: 10px solid black;
+  padding: 35px;
+  background: url(http://w3programmers.com/bangla/wp-content/uploads/2018/12/img_flwr.gif);
+  background-repeat: no-repeat;
+  background-origin: content-box;
+}
+</style>
+ -->
+
+<!-- internally added css link -->
+    <!-- <link href="{% static 'css/lol.css' %}" rel="stylesheet"> -->
+
+  <!-- <a href="/home/">home</a> .....<a href="/">lol</a> -->
+<!-- <h1><a href="{% url 'home' %}">home</a></h1>
+<h1><a href="{% url 'lol' %}">lol</a></h1> -->
+<!-- <h1>Resized background-image:</h1>
+<div id="example1">
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+  
+</div> -->
+ 
+
+ <!-- <h1>The background-origin Property</h1> -->
+ 
+<!-- <p>No background-origin (padding-box is default):</p>
+<div id="example1">
+  <h2>Lorem Ipsum Dolor</h2>
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+  <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+</div>
+ 
+<p>background-origin: border-box:</p>
+<div id="example2">
+  <h2>Lorem Ipsum Dolor</h2>
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+  <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+</div>
+ 
+<p>background-origin: content-box:</p>
+<div id="example3">
+  <h2>Lorem Ipsum Dolor</h2>
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.</p>
+  <p>Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
+</div> -->
+
+
+
+
+<!-- <head>
+<style>
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+</style>
+</head>
+
+<body>
+ 
+<p class="dotted">A dotted border.</p>
+<p class="dashed">A dashed border.</p>
+<p class="solid">A solid border.</p>
+<p class="double">A double border.</p>
+<p class="groove">A groove border.</p>
+<p class="ridge">A ridge border.</p>
+<p class="inset">An inset border.</p>
+<p class="outset">An outset border.</p>
+<p class="none">No border.</p>
+<p class="hidden">A hidden border.</p>
+<p class="mix">A mixed border.</p>
+ 
+</body>
+ -->
+
+
+<!-- <head>
+<style> 
+#rcorners1 {
+  border-radius: 25px;
+  background: #73AD21;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+}
+ 
+#rcorners2 {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+}
+ 
+#rcorners3 {
+  border-radius: 25px;
+  background: url("static/media/love3.JPG");
+  background-position: left top;
+  background-repeat: repeat;
+  padding: 20px; 
+  width: 200px;
+  height: 150px;  
+}
+</style>
+</head>
+<body>
+<p>Rounded corners for an element with a specified background color:</p>
+<p id="rcorners1">Rounded corners!</p>
+<p>Rounded corners for an element with a border:</p>
+<p id="rcorners2">Rounded corners!</p>
+<p>Rounded corners for an element with a background image:</p>
+<p id="rcorners3">Rounded corners!</p>
+ 
+</body>
+ -->
+
+
+
+<!-- <img src="media/lov.JPG" alt="Sample Image" width="500" height="500"> -->
+<!-- <br>
+<img src="{% static 'love.JPG' %}" alt="mahmud" width="500" height="500">
+<br> -->
+
+<!-- <a href="https://www.w3schools.com"><img src="{% static 'love.jpg' %}" alt="mahmud"style="max-width: 100px; max-height: 500px;">
+ -->
+
+<!-- <img src="http://w3programmers.com/bangla/wp-content/uploads/2018/12/pinkrose.jpg" alt="Flowers" style="width:auto;">
+ -->
+
+ <!-- <a href="{% static 'pdf/lol.pdf' %}" alt="mahmud"> PDF</a> -->
+
+
+
+<!--       <form >
+          Input Type color:  <input type="color" name="favcolor"><br>
+          Input Type Date:  <input type="date" name="bday"><br>
+          Input Type (date and time):  <input type="datetime-local" name="bdaytime"><br>
+          Input Type E-mail:   <input type="email" name="email"><br>
+          Input Type Month: <input type="month" name="bdaymonth"><br>
+          Input Type Number: <input type="number" name="quantity" min="1" max="5"><br>
+          Input Type Range: <input type="range" name="points" min="0" max="10"><br>
+          Input Type Search: <input type="search" name="googlesearch"><br>
+          Input Type Telephone: <input type="tel" name="usrtel"><br>
+          Input Type Time:  <input type="time" name="usr_time"><br>
+          Input Type URL: <input type="url" name="homepage"><br>
+          Input Type Week:  <input type="week" name="week_year">
+      </form> -->
+   <!-- Password: <input type = "password" name = "password" color= "blue" size= "50" maxlength="5" /> -->
+
+<!-- <form>
+         Description : 
+         <textarea rows = "5" cols = "50" name = "description">
+            Enter description here...
+         </textarea>
+</form> -->
+ 
+<!-- <form>
+         <input type = "checkbox" name = "bangla" value = "on"> Bangla
+         <input type = "checkbox" name = "english" value = "on"> English
+</form>
+ -->
+
+
+
+<!-- <form>
+         <select name = "dropdown">
+<option value = "Maths" selected>Maths</option>
+<option value = "Physics">Physics</option>
+<option value="Bangla">Bangla</option>
+         </select>
+      </form> -->
+
+
+
+
+     <!--  <form>
+          <input list="browsers" name="browser">
+            <datalist id="browsers">
+               <option value="Internet Explorer">
+               <option value="Firefox">
+               <option value="Chrome">
+               <option value="Opera">
+               <option value="Safari">
+            </datalist>
+         <input type="submit">
+      </form> -->
+
+
+<!-- <form>
+         <input type = "file" name = "fileupload" accept = "image/*" />
+      </form> -->
+
+
+
+<!-- <form>
+         <input type = "submit" name = "submit" value = "Submit" />
+         <input type = "reset" name = "reset" value = "Reset" />
+         <input type = "button" name = "ok" value = "OK" />
+         <input type = "image" name = "imagebutton" src = "http://w3programmers.com/bangla/wp-content/uploads/2017/11/w3programmers-logo.png" />
+</form>
+ -->
+
+<!-- <h1 style="color:red;">HTML Attribute tutorial</h1>
+<h2 title="Hello Webcoachbd">Bangladesh is a country of natural beauty</h2> -->
+
+<!-- <p align="right">Most browsers automatically left-justify a new paragraph.</p>
+
+ 
+
+<p align="center">To change this behavior, the align attribute for the "<p>" tag and provide four kinds of content justification: left, right, center, and justify.</p> -->
+
+ 
+
+<!-- <p style="background-color:#f00;" title="This is tooltip tile">You may specify a paragraph only within a block, along with other paragraphs, lists, forms, and preformatted text</p> -->
+
+<!-- <a href="http://www.webcoachbd.com/" target="_blank" >Webcoachbd Home</a><br>
+<a href="http://www.google.com/" target="_blank" >Google Home</a><br>
+<a href="http://www.yahoo.com/" target="_blank" >Yahoo Home</a><br>
+<a href="#anchorname">go</a>
+<a href="/webcoachbd/../pics/picturefile.jpg">go2</a>
+<a href="http://www.webcoachbd.com/html-tutorials/html-radio-check" target="_blank">hello</a>
+<a href= "mailto:mahmudhossain838@mail.com" >Email Example</a>
+
+
+<a href= "mailto:mahmudhossain838@mail.com ?subject=Web Page Email&body=This email is from your website" > 2nd Email Example</a> -->
+
+
+<!-- &copy;
+&#169; -->
+
+<!-- <img align="right" src="/images/stories/imagel.jpg" alt="sunset"/> -->
+
+<!-- <img align="right" src="static/media/love.JPG" alt="Sample Image" width="500" height="500">
+<img align="left" src="{% static 'media/love.JPG' %}" alt="mahmud" width="500" height="500"> -->
+
+
+<!-- <table border="1">
+<tr>
+<th rowspan="2">Web Language</th>
+<td>HTML</td>
+<td>CSS</td>
+</tr>
+<tr>
+<td>PHP</td>
+<td>JS</td>
+</tr>
+<tr>
+<th>Framework</th>
+<td>CI</td>
+<td>Bootstrap</td>
+</tr>
+</table> -->
+
+
+<!-- <div style="border:1px solid #f00">
+<h1>HTML div tutorial in Webcoachbd</h1>
+<p>Basically div layout designed by CSS</p>
+
+</div>
+<div style="border:1px solid #f00">
+<h1>HTML div tutorial in Webcoachbd</h1>
+<p>Basically div layout designed by CSS</p>
+
+</div> -->
+
+
+<!-- <select name="color">
+<option  value="bl">Black</option>
+<option value="wh">White</option>
+<option selected="selected" value="mr">Maroon</option>
+</select>
+ -->
+
+
+<!-- <form action="test.php" method="post">
+<textarea autofocus="autofocus" cols="30" rows="10" name="about_you" placeholder="write about you" required></textarea>
+<input type="submit" name="submit" value="Submit">
+</form> -->
+
+<!-- <h3 style="background-color:blue; color:white;">ব্যাকগ্রাউন্ডের </h3>
+	<h3 style="background-color:rgb(255,0,0)">
+	rgb(255,0,0) ব্যবহার করে ব্যাকগ্রাউন্ড-কালার করা হয়েছে।
+	</h3> -->
+
+
+<!-- <body>
+	<p><a href="#chap4">অধ্যায় ৪ এ যেতে ক্লিক করুন</a></p>
+
+	<h4>অধ্যায় ১</h4>
+	<p>আশা করি এইচটিএমএল বুকমার্ক বিষয়টি ভালো ভাবে বুঝতে পেরেছেন।</p>
+
+	<h4>অধ্যায় ২</h4>
+	<p>আশা করি এইচটিএমএল বুকমার্ক বিষয়টি ভালো ভাবে বুঝতে পেরেছেন</p>
+
+	<h4>অধ্যায় ৩</h4>
+	<p>আশা করি এইচটিএমএল বুকমার্ক বিষয়টি ভালো ভাবে বুঝতে পেরেছেন।</p>
+
+	<h4 id="chap4">অধ্যায় ৪</h4>
+	<p>আশা করি এইচটিএমএল বুকমার্ক বিষয়টি ভালো ভাবে বুঝতে পেরেছেন।</p>
+
+	<h4>অধ্যায় ৫</h4>
+	<p>আশা করি এইচটিএমএল বুকমার্ক বিষয়টি ভালো ভাবে বুঝতে পেরেছেন।</p>
+
+	<h4>অধ্যায় ৬</h4>
+	<p>আশা করি এইচটিএমএল বুকমার্ক বিষয়টি ভালো ভাবে বুঝতে পেরেছেন।</p>
+</body>
+ -->
+
+
+<!-- <code>
+  var a = 5;<br>
+  var b = 6;<br>
+  document.getElementsByTagName("li").innerHTML = a * b;
+  </code> -->
+
+
+ <!--  <iframe src="http://www.sattacademy.com/" height="200px" width="100%"></iframe>
+<iframe src="https://www.google.com/" height="200px" width="100%"></iframe>
+-->
+
+<!-- <form action="action_page.php" method="post">
+  ই-মেইলঃ <input type="email" name="email">
+  <input type="submit" value="সাবমিট">
+</form> -->
+
+
+<!-- <form action="/" method="post">
+  প্রথম নামঃ <input type="text" name="firstname"><br>
+  <input type="submit" value="সাবমিট">
+  <input type="submit" formenctype="multipart/form-data" value="ভিন্ন এনকোডিং">
+</form>
+ -->
+
+<!-- <body>
+      <h3 style="ctext-align:center; color:blue;">This is an Inline CSS</h3>
+</body> -->
+
+
+
+<!-- <head>
+   <title>Inpage CSS Example</title>
+   <style>
+      h2{
+         background-color: #87CEEB;
+         color: #fff;
+      }
+   </style>
+</head>
+<body>
+   <h2>Inpage CSS Example</h2>
+</body> -->
+
+
+<!-- <head>
+   <title>External CSS</title>
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+</head>
+<body>
+   <table class="table table bordered table hover table-striped table-condensed table-dark">
+   <tr>
+      <td>One</td>
+      <td>Two</td>
+      <td>Three</td>
+   </tr>
+   <tr>
+      <td>Four</td>
+      <td>Five</td>
+      <td>Six</td>
+   </tr>
+</table>
+</body>
+ -->
+
+
+<!-- <body>
+<h1 style="background-color:#ff0000;">#ff0000</h1>
+<h1 style="background-color:#0000ff;">#0000ff</h1>
+<h1 style="background-color:#00ff00;">#00ff00</h1>
+<h1 style="background-color:#ee82ee;">#ee82ee</h1>
+<h1 style="background-color:#ffa500;">#ffa500</h1>
+<h1 style="background-color:#6a5acd;">#6a5acd</h1>
+</body> -->
+
+
+
+
+<!-- <style>
+body {
+  background-image: url("http://w3programmers.com/bangla/wp-content/uploads/2018/12/pattern.jpg");
+  background-repeat: repeat-y;
+  background-position: right top;
+  color:#fff;
+}
+</style> -->
+
+
+
+<!-- <p id='test'></p>
+<script src="{% static 'js/lol.js' %}"></script> -->
+
+
+
+
+
