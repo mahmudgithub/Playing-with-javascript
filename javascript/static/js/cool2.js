@@ -925,12 +925,19 @@
 // var x=function(){console.log('hello')};
 
 // pactics of hoisting
-name;
-console.log('example of variable hoisting');
-var name;
+// name;
+// console.log('example of variable hoisting');
+// var name;
 
-fn();
-function fn(){console.log('example of function hoisting')};
+// fn();
+// function fn(){console.log('example of function hoisting')};
 
-fun('mahmud');
-function fun(fname){console.log(`i am ${fname}`)};
+// fun('mahmud');
+// function fun(fname){console.log(`i am ${fname}`)};
+
+// x();
+// var x=function (){console.log('hello')}
+
+
+fun('mahmd');
+function fun (name){console.log(`my name is ${name}`)}
