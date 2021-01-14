@@ -951,6 +951,11 @@
 // for(var i=0; i<s; i++){console.log(i)}
 
 // var arr=['mahmud','hossain','lamyaa','nowsin']
-// for (var i=0; i<arr.length;i++){console.log(arr[i])};
+// for (var i=0; i<arr.length;i++){console.log(arr)};
 
-for(var i=0;i<10;i++){console.log('hu')}
+// for(var i=0;i<10;i++){console.log('hu')}
+
+// var name=['mahmud','hossain','lamyaa','nowsin']
+// for(var one of name){console.log(one)}
+
+// for (var i of name){console.log(i)};
