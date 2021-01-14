@@ -1014,10 +1014,34 @@
 // console.log(x['obj2']['obj3']['obj4']);
 
 
+// var obj={
+// 	fn:function(){
+// 		return 'hello'
+// 	}
+// }
+// var x=obj;
+// console.log(x.fn());
+
+// var obj={
+// 	name:'mahd',
+// 	roll:12345,
+// 	class:'eight'
+// }
+
+// for (var props in obj){console.log(props)}
+// for (var props in obj){console.log(obj[props])}
+// for (var props in obj){console.log(`${props} : ${obj[props]}`)}
+
 var obj={
-	fn:function(){
+	name:'mahmud',
+	roll:12345,
+	city:['raj','dha','khu'],
+	fun:function(){
 		return 'hello'
 	}
 }
-var x=obj;
-console.log(x.fn());
+for(var props in obj){
+console.log(props);
+console.log(obj[props]);
+console.log(`${props} : ${obj[props]} ${obj.fun()}`)
+};
