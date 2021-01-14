@@ -959,3 +959,42 @@
 // for(var one of name){console.log(one)}
 
 // for (var i of name){console.log(i)};
+
+// var obj={
+// 	name:'mahmud',
+// 	roll:12345,
+// 	city:'rajshahi'
+// }
+// // console.log(obj)
+// obj;
+
+// var x=obj;
+// // console.log(x.name);
+
+// x.cgpa=2.76;
+// // console.log(x)
+
+// var arr=['mahmud','hossain','lamyaa','nowsin']
+// x.push=arr;
+// // console.log(x)
+
+// function lol(){
+// 	console.log('i am function')
+// }
+// x.push=lol();
+// console.log(x);
+
+
+var obj={
+	name:'mahmud',
+	roll:1245,
+	city:['raj','dhaka','khu'],
+	fn:function(){
+	console.log('i am a function')
+	}
+}
+var x=obj;
+console.log(x);
+console.log(x.fn());
+console.log(x.name);
+console.log(x.city);
