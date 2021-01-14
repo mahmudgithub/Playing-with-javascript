@@ -985,16 +985,39 @@
 // console.log(x);
 
 
+// var obj={
+// 	name:'mahmud',
+// 	roll:1245,
+// 	city:['raj','dhaka','khu'],
+// 	fn:function(){
+// 	console.log('i am a function')
+// 	}
+// }
+// var x=obj;
+// console.log(x);
+// console.log(x.fn());
+// console.log(x.name);
+// console.log(x.city);
+
+// var obj={
+// 	obj2:{
+// 		obj3:{
+// 			obj4:{
+// 				name:'mahmud'
+// 			}
+// 		}
+// 	}
+// }
+
+// var x=obj;
+// console.log(x.obj2.obj3.obj4);
+// console.log(x['obj2']['obj3']['obj4']);
+
+
 var obj={
-	name:'mahmud',
-	roll:1245,
-	city:['raj','dhaka','khu'],
 	fn:function(){
-	console.log('i am a function')
+		return 'hello'
 	}
 }
 var x=obj;
-console.log(x);
 console.log(x.fn());
-console.log(x.name);
-console.log(x.city);
