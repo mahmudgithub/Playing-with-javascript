@@ -959,14 +959,21 @@ last name */
 // console.log(y);
 // }
 
-function one(name,two){
-	two(name);
-}
+// function one(name,two){
+// 	two(name);
+// }
 
-one('mahmud',function(name){
-	console.log('hello  '+name);
-});
+// one('mahmud',function(name){
+// 	console.log('hello  '+name);
+// });
 
-one('mahmud',function(name){
-	console.log('hi  '+name);
-});
+// one('mahmud',function(name){
+// 	console.log('hi  '+name);
+// });
+
+// application of map function
+
+let lol=[1,2,3,4,5]
+let data=lol.map(x=>{
+	console.log(x);
+	})
