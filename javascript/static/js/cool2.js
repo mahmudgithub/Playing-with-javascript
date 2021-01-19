@@ -1032,16 +1032,37 @@
 // for (var props in obj){console.log(obj[props])}
 // for (var props in obj){console.log(`${props} : ${obj[props]}`)}
 
-var obj={
-	name:'mahmud',
-	roll:12345,
-	city:['raj','dha','khu'],
-	fun:function(){
-		return 'hello'
+// var obj={
+// 	name:'mahmud',
+// 	roll:12345,
+// 	city:['raj','dha','khu'],
+// 	fun:function(){
+// 		return 'hello'
+// 	}
+// }
+// for(var props in obj){
+// console.log(props);
+// console.log(obj[props]);
+// console.log(`${props} : ${obj[props]} ${obj.fun()}`)
+// };
+
+// function fn(){
+// 	return ( 'hello');
+// }
+// console.log(fn());
+
+class one{
+	 fn(){
+		console.log('heelo');
 	}
 }
-for(var props in obj){
-console.log(props);
-console.log(obj[props]);
-console.log(`${props} : ${obj[props]} ${obj.fun()}`)
-};
+var x=new one;
+x.fn();
+;
+
+// class one{
+// 	constructor(a,b){
+// 		console.log(`su is ${a+b}` );
+// 	}
+// }
+// var x= new one(2,2);
