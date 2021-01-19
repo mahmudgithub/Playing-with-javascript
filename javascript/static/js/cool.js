@@ -973,7 +973,11 @@ last name */
 
 // application of map function
 
-let lol=[1,2,3,4,5]
-let data=lol.map(x=>{
+// let lol=[1,2,3,4,5]
+let arr=['mahmud','hossain','lamyaa','niva']
+let data=arr.map(x=>{
 	console.log(x);
 	})
+
+
+
