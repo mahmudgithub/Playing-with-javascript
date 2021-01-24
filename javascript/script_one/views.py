@@ -19,3 +19,5 @@ def four(request):
 def five(request):
 	return render (request,'home.html')
 
+def six(request):
+	return render(request, 'div.html')
