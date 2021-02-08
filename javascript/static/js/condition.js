@@ -1,5 +1,6 @@
 // // ternary operator pactics*******************************
 // // যদি কন্ডিশন সত্য হয় ? তাইলে ভ্যালু এটা : নাইলে ভ্যালু এইটা
+// condition ? exprIfTrue : exprIfFalse
 // const a=100;
 // const b=50;
 
@@ -22,3 +23,10 @@
 // let y='mahmud';
 // let z=(x==y) ? 'is equal' : 'not equal'
 // console.log(z);
+
+// javascripts conditonal 
+// if,else,if-else**************************************
+// let x=100;
+// if(5<100){console.log(('x is bigger then 5'));}
+// else if(5>100){console.log(false);}
+// else{console.log('both are equal');}
