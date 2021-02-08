@@ -38,3 +38,11 @@
 // else if(votage>=18){document.getElementById('test').innerHTML='allow to vote'}
 // else{document.getElementById('test').innerHTML='missmatch id'}
 
+// let lol=()=>{
+//     let x=10;
+//     let y=20;
+//     if (x<y){console.log('y is bigger then x');}
+//     else if (x>y){console.log('x is bigger then y');}
+//     else{console.log('both are equal')}
+// }
+// lol()
