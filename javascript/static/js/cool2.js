@@ -1051,14 +1051,14 @@
 // }
 // console.log(fn());
 
-class one{
-	 fn(){
-		console.log('heelo');
-	}
-}
-var x=new one;
-x.fn();
-;
+// class one{
+// 	 fn(){
+// 		console.log('heelo');
+// 	}
+// }
+// var x=new one;
+// x.fn();
+// ;
 
 // class one{
 // 	constructor(a,b){
@@ -1066,3 +1066,59 @@ x.fn();
 // 	}
 // }
 // var x= new one(2,2);
+
+
+// lol=(name)=>{
+// pol(name);
+// }
+
+// pol=(sos)=>{
+// 	console.log(sos)
+// }
+
+// lol('mahmud')
+
+
+// function calback(a) {
+//   console.log(a)
+// }
+
+// function fn1() {
+//   calback("Hello");
+//   calback('mahmud');
+// }
+
+// function fn2() {
+//   calback("Goodbye");
+// }
+
+// fn1();
+// fn2();
+
+
+const getVar = () => {
+   setTimeout(function() {
+      console.log('function one');
+   }, 3000)
+}
+
+const printSomething = () => {
+   console.log('Function two');
+}
+getVar();
+printSomething();
+
+
+
+
+const getVarC = (lol) => {
+   setTimeout(function() {
+      console.log(' Function three');
+      lol();
+   }, 3000)
+}
+
+const printSomethingC = () => {
+   console.log('Function four');
+}
+getVarC(printSomethingC);
