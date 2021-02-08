@@ -30,3 +30,11 @@
 // if(5<100){console.log(('x is bigger then 5'));}
 // else if(5>100){console.log(false);}
 // else{console.log('both are equal');}
+
+// using condition make voter id permission calculator
+
+// let votage=18;
+// if(votage<18){document.getElementById('test').innerHTML='no allow to vote '}
+// else if(votage>=18){document.getElementById('test').innerHTML='allow to vote'}
+// else{document.getElementById('test').innerHTML='missmatch id'}
+
