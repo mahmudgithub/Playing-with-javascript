@@ -7,8 +7,13 @@
 // console.log(c);
 // document.getElementById('test').innerHTML=(c)
 
-const isname= true;
+// const isname= true;
 
-const s= isname ? 'yes' : 'no'
-console.log(s);
-document.getElementById('test').innerHTML=(s)
+// const s= isname ? 'yes' : 'no'
+// console.log(s);
+// document.getElementById('test').innerHTML=(s)
+
+let x=10;
+let y=20;
+if (x==y){console.log('false');}
+else{console.log('true');}
