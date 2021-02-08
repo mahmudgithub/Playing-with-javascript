@@ -7,7 +7,7 @@
 // console.log(c);
 // document.getElementById('test').innerHTML=(c)
 
-const isname= false;
+const isname= true;
 
 const s= isname ? 'yes' : 'no'
 console.log(s);
