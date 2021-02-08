@@ -13,7 +13,12 @@
 // console.log(s);
 // document.getElementById('test').innerHTML=(s)
 
-let x=10;
-let y=20;
-if (x==y){console.log('false');}
-else{console.log('true');}
+// let x=10;
+// let y=20;
+// if (x==y){console.log('false');}
+// else{console.log('true');}
+
+// let x='mahmud';
+// let y='mahmud';
+// let z=(x==y) ? 'is equal' : 'not equal'
+// console.log(z);
