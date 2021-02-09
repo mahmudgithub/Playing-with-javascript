@@ -21,3 +21,18 @@
 
 // let {names,city,love}=obj
 // console.log(names,city,love[2]);
+
+// // distructuring nested Object
+// const arr={
+//     names:"mahmud",
+//     city:{
+//         love:'lamyaa',
+//         other:{
+//             village:'binodpur'
+//         }
+//     }
+// }
+
+// const {names,city:{love,other:{village}}}=arr
+// console.log(names);
+// console.log(village);
