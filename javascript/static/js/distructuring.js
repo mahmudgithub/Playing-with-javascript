@@ -87,3 +87,18 @@
 //     console.log(`my name is ${names} and my color is ${second}`)
 // }
 // fun({names,color:[first,second]})
+
+// // advance object ,to function distructuring process
+// const obj={
+//     man:'mahmud',
+//     email:'mahmud@gmail.com'
+// }
+
+// const {man , email}=obj
+// console.log({man, email});
+
+// const fun=({man,email})=>{
+//     console.log(`hello ${man} what is email ${email}`);
+
+// }
+// fun({email,man})
