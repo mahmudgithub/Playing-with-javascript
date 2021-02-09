@@ -60,3 +60,9 @@
 
 // const result=(x==y) ? true : false 
 // document.getElementById('test').innerHTML=(result)
+
+// // short circuit operetors **********************
+// const a=100;
+// const b=1;
+// const result=(a==b) && false
+// document.getElementById('test').innerHTML=(result)
