@@ -58,3 +58,32 @@
 
 // const {names,obj1:{obj2:{flower,obj3:{color}}}}=nestedArrayObject //this line for nested obj distructuring
 // console.log(names,flower,color); //this for obj distructuring console
+
+
+// access object distructuring data by a functio
+// let obj={
+//     pem:'mahmud',
+//     roll:12345
+// }
+// const{pem,roll}=obj;
+// //  console.log(names,roll);
+
+// function li(pem,roll){
+//     console.log(pem);
+// }
+// li(pem,roll);
+
+// // complex example to object distructuing access by fnction
+// const obj={
+//     names:'car',
+//     color:['red','blue','white'],  
+// }
+
+// const {names, color:[first,second]}=obj
+// console.log(names,first );
+
+// const fun=({names, color:[first,second]})=>{
+
+//     console.log(`my name is ${names} and my color is ${second}`)
+// }
+// fun({names,color:[first,second]})
