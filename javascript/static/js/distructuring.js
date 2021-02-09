@@ -36,3 +36,25 @@
 // const {names,city:{love,other:{village}}}=arr
 // console.log(names);
 // console.log(village);
+
+// // distructuring nested array and nested object
+// const nestedArrayObject={
+//     names:'mahmud',
+//     arr1:['one','two',['banana','apple',['lamyaa','nowsin']]],
+//     obj1:{
+//         city:'rajshahi',
+//         obj2:{
+//             flower:'golap',
+//             obj3:{
+//                 color:'red',
+//                 arr2:['men','women']
+//             }
+//         }
+//     }
+// }
+
+// const {arr1:[one,,[,apple,[,nowsin]]]}=nestedArrayObject //this line object distructuring
+// console.log(one,apple,nowsin);  //this for nested array distructuring console
+
+// const {names,obj1:{obj2:{flower,obj3:{color}}}}=nestedArrayObject //this line for nested obj distructuring
+// console.log(names,flower,color); //this for obj distructuring console
