@@ -46,3 +46,17 @@
 //     else{console.log('both are equal')}
 // }
 // lol()
+
+
+// today 9.2.2021 pactics 
+
+// const x=1100;
+// if (x<100){document.getElementById('test').innerHTML='right '}
+// else{document.getElementById('test').innerHTML=' wrong'}
+
+
+// const x='mahmud';
+// const y='Mahmud';
+
+// const result=(x==y) ? true : false 
+// document.getElementById('test').innerHTML=(result)
