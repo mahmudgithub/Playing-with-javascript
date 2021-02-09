@@ -10,3 +10,14 @@
 
 // const[,,one]=citys
 // console.log(one);
+
+// object distructuring pactics
+
+// let obj={
+//     names:'mahmud',
+//     city:'rajshhai',
+//     love:['lamyaa','nowsin','sorovi']
+// }
+
+// let {names,city,love}=obj
+// console.log(names,city,love[2]);
