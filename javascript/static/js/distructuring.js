@@ -123,4 +123,10 @@
 //     console.log(a);
 // }
 // lol(1,2,3,4,5,6)
+
+
 // soered operetor ******************************
+// // different btween simple and spred operetor 
+// const arr=['mahmud','hossain','lamyaa']
+// console.log(arr);
+// console.log(...arr);
