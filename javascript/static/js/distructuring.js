@@ -118,4 +118,9 @@
 //     console.log(...more);
 // }
 // lol('mahmud','hossain',1,3,4,5,5,6,7)
+
+// const lol=(...a)=>{
+//     console.log(a);
+// }
+// lol(1,2,3,4,5,6)
 // soered operetor ******************************
