@@ -111,4 +111,11 @@
 //     console.log(...names)  //this is spred operetor way to show output 
 // }
 // names('mahmud','hossain','nannau')
+
+// const lol=(a,b, ...more)=>{
+//     console.log(a ,b);
+//     console.log(more);
+//     console.log(...more);
+// }
+// lol('mahmud','hossain',1,3,4,5,5,6,7)
 // soered operetor ******************************
