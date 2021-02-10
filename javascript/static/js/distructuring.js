@@ -102,3 +102,13 @@
 
 // }
 // fun({email,man})
+
+
+// today 10.2.2021 
+// rest operetor pactics **********************
+// const names=(...names)=>{
+//     console.log(names);  //this genaral way to show output 
+//     console.log(...names)  //this is spred operetor way to show output 
+// }
+// names('mahmud','hossain','nannau')
+// soered operetor ******************************
