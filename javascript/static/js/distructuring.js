@@ -132,9 +132,21 @@
 // lol(1,2,3,4,5,6)
 
 
-// soered operetor ******************************
+// spred operetor ******************************
 // // different btween simple and spred operetor 
+// // spred operetor may be exced array value to single value 
 // const arr=['mahmud','hossain','lamyaa']
 // console.log(arr);
 // console.log(...arr);
 
+// const arr=['mahmud','hossain','nannu']
+// console.log(arr);
+// console.log(...arr);
+
+// const fun=(x,y,...arr)=>{
+//     console.log(x);
+//     console.log(y);
+//     console.log(arr);
+//     console.log(...arr);
+// }
+// fun('lamyaa','nowsin','niva','lima','ara')
