@@ -105,7 +105,14 @@
 
 
 // today 10.2.2021 
-// rest operetor pactics **********************
+// // rest operetor pactics **********************
+// //rest operetor may be accept more parameter value by one paramete as a array
+// let one=(first,second,...more)=>{
+//     console.log(first);
+//     console.log(second);
+//     console.log(more);
+// }
+// one('mahmud','hossain',1,2,3,4,5,6)
 // const names=(...names)=>{
 //     console.log(names);  //this genaral way to show output 
 //     console.log(...names)  //this is spred operetor way to show output 
@@ -130,3 +137,4 @@
 // const arr=['mahmud','hossain','lamyaa']
 // console.log(arr);
 // console.log(...arr);
+
