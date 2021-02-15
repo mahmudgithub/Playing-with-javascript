@@ -18,3 +18,8 @@
 // lol.map((lol,index)=>{
 //     console.log(index,...lol);
 // })
+
+// const lol=[1,2,3,4,5,6,7,8,9]
+// lol.map(lol,index=>{
+//     console.log(lol);
+// })

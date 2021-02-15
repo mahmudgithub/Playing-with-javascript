@@ -56,6 +56,8 @@ console.log(arr.indexOf('mahmud'));
 //use splice to remove any specific index number item
 //ইন্ডেস্ক নাম্বার দিয়ে কোনো আইটেম রিমুভ করতেঃ
 //arrName.splice(1, 2);
+//JavaScript এ একটা array এর শুরু ,
+//শেষে এমনকি মধ্যবর্তি যে জায়গাতে কোনো value যুক্ত করতে splice() Method ব্যবহৃত হয়।
 console.log(arr.splice(0,2));
 //if start to last
 //একটা নির্দিষ্ট ইন্ডেক্স নাম্বার থেকে শুরু করে বাকি সবগুলো রিমুভ করতে 
@@ -90,6 +92,71 @@ console.log(newarr);
 
 // console.log(spliceArr);
 
+
+
+//JavaScript এ একটা array তে কতগুলো এলিমেন্ট আছে তা কিভাবে জানব ?
+// JavaScript এ একটা array তে কতগুলো এলিমেন্ট আছে তা জানতে হলে আপনাকে 
+// এর array Object এর length property টি ব্যবহার করতে হবে।
+// var fruits = ["Banana", "Orange", "Apple", "Mango"];
+// document.getElementById("test").innerHTML = fruits.length;
+
+
+// JavaScript এ একটা array এর value গুলোকে কিভাবে string আকারে প্রদর্শন করব?
+// JavaScript এ একটা array এর value গুলোকে string আকারে প্রদর্শন করতে হলে 
+// আপনাকে toString() Method অথবা join() Method ব্যবহার করতে হবে। 
+// এক্ষেত্রে toString() মেথড বাই ডিফল্ট array এর value গুলোকে কমা (,) দিয়ে প্রদর্শন করে ,
+// অন্যদিকে join() Method এ আপনি চাইলে নিজস্ব separator ব্যবহার করতে পারেন।
+// তাহলে চলুন উদাহরণে দেখা যাক:
+
+// var fruits = ["Banana", "Orange", "Apple", "Mango"];
+// document.getElementById("test").innerHTML = fruits.toString();
+// document.getElementById("test").innerHTML = fruits.join();
+
+
+
+// avaScript এ কিভাবে দুই বা ততোধিক array কে merge করবেন?
+// JavaScript এ দুই বা ততোধিক array কে merge করার জন্য concat() method টি ব্যবহৃত হয়।
+// var list1 = ["Sahin", "Ikram"];
+// var list2 = ["Ridoy", "Sourov", "tariqul"];
+// var all = list1.concat(list2);
+// document.getElementById("test").innerHTML = all;
+
+
+// JavaScript এ কিভাবে একটা array এর নির্দিষ্ট অংশ কেটে নিয়ে নতুন একটা array তৈরী করবেন?
+// JavaScript এ একটা array এর নির্দিষ্ট অংশ কেটে নিয়ে নতুন একটা array তৈরী করতে হলে 
+// আপনাকে slice() Method টি ব্যবহার করতে হবে।
+// var fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+// var citrus = fruits.slice(0,2);
+// document.getElementById('test').innerHTML =citrus;
+
+
+
+// JavaScript এ array element গুলোকে কিভাবে alphabetically sort করবেন ?
+// JavaScript এ array element গুলোকে alphabetically sort করতে হলে 
+// আপনাকে sort() Method টি ব্যবহার করতে হবে।
+// var fruits = ["Banana", "Orange", "Apple", "Mango"];
+// document.getElementById("test").innerHTML = (fruits.sort());
+
+
+
+// JavaScript এ array element গুলোকে কিভাবে reverse অর্ডারে sort করবেন?
+// JavaScript এ array element গুলোকে reverse অর্ডারে sort করার জন্য
+//  আপনি reverse() Method টি ব্যবহার করতে পারেন।
+// var fruits = ["Banana", "Orange", "Apple", "Mango"];
+// document.getElementById("test").innerHTML = (fruits.reverse());
+
+
+
+// JavaScript এ Numerical array এর element গুলোকে কিভাবে sort করবেন ?
+// var points = [40, 100, 1, 5, 25, 10];
+// document.getElementById("test").innerHTML = points.sort(function(a, b){return a - b});
+
+
+
+// তবে আপনি চাইলে JavaScript এ Numerical array এর element গুলোকে descending 
+// অর্ডারে sort করতে হলেও আগের টেকনিক টির সামান্য পরিবর্তন করে দিলেই হবে 
+// var points = [40, 100, 1, 5, 25, 10];
+// document.getElementById("test").innerHTML =points.sort(function(a, b){return b-a});
 
 
 
