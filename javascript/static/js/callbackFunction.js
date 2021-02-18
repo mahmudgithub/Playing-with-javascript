@@ -318,4 +318,55 @@
 
 
 
+
+
 //link: https://www.toolsqa.com/javascript/callback-functions-javascript/ 
+//javascript sycronus *******************
+// const one=()=> console.log('i am fun one');
+// const two=()=> console.log('i am fun two');
+// two();
+// one();
+
+//invoke a callback function inside another callback?********************
+// function multiply(a, b, callback1, callback2)
+//             {
+//                 var result = a * b;
+//                 callback1(result, callback2); //callback2 is passed as parameter to callback1
+//             }
+ 
+//             function ouput(result)
+//             {
+//                 console.log("I am in output function");
+//                 console.log("Multiplication of the provided inputs are: " + result);
+//             }
+ 
+//             function display(result, callback)
+//             {
+//                 console.log("I am in display function");
+//                 console.log("Multiplication of the provided inputs are: " + result);
+//                 callback(result);
+//             }
+ 
+//             function CallBackFunction(result) {            
+//                 console.log("I am inside callback function");             
+//             } 
+ 
+//             multiply(5, 6, ouput); // output is passed as callback
+ 
+//             // display and CallBackFunction are passed as callbacks
+//             multiply(7, 6, display, CallBackFunction);
+
+// What is callback hell?**********************************
+// When you have lots of callback functions in your code! It gets harder to work with 
+// them. The more of them you have in your code, and it gets particularly bad to invoke
+//  and handle them. It occurs because, in JavaScript, the only way to delay computation 
+//  so that it runs after the asynchronous call returns is to put the delayed code inside
+//   a callback function. You cannot delay code that we wrote in a traditional 
+//   synchronous style, so you end up with nested callbacks everywhere.
+
+
+
+
+
+
+// link://https://dmitripavlutin.com/javascript-callback/ 
