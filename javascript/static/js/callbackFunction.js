@@ -187,6 +187,135 @@
 // How to create a Callback
 // To understand what I’ve explained above, let me start with a simple example. 
 // We want to log a message to the console but it should be there after 3 seconds.
+
 //asychonus function
-const fn=()=>{console.log('hello');}
-setTimeout(fn,5000)
+// const fn=()=>{console.log('hello');}
+// setTimeout(fn,3000)
+//There is a built-in method in JavaScript called “setTimeout”, 
+//which calls a function or evaluates an expression after a given period of time 
+// (in milliseconds). So here, the “message” function is being called after 3 seconds
+//  have passed. (1 second = 1000 milliseconds)
+// In other words, the message function is being called after something happened 
+// (after 3 seconds passed for this example), but not before. So the message function 
+// is an example of a callback function.
+
+// What is an Anonymous Function?
+// Alternatively, we can define a function directly inside another function,
+//  instead of calling it. It will look like this:
+// setTimeout(()=>{console.log('i am animpnus function');},3000)
+//As we can see, the callback function here has no name and a function 
+//definition without a name in JavaScript is called as an “anonymous function”. 
+
+
+
+
+
+//link:https://adrianmejia.com/callbacks-concurrency-in-javascript-node/ 
+//all the asynchronous functions use a callback (or promises).
+//A callback is a function that is passed as an argument to another function.
+//Callbacks are also known as higher-order function.
+// example:
+// const compute = (n1, n2, callback) => callback(n1, n2);
+// const sum = (n1, n2) => n1 + n2;
+// const product = (n1, n2) => n1 * n2;
+// console.log(compute(5, 3, sum));     // ↪️  8
+// console.log(compute(5, 3, product)); // ↪️  15
+//As you can see the function compute takes two numbers and a callback function.
+// This callback function can be sum, product and any other that you develop that 
+//operates two numbers.As you can see the function compute takes two numbers and 
+//a callback function. This callback function can be sum, product and any other that 
+//you develop that operates two numbers.
+
+
+// const fn=(callback)=>callback();
+// const sum=()=> 'hello world'
+// console.log(fn(sum));
+
+
+// const fn=(callback)=>{ return callback();}
+// const sum=()=> { return 'hello world'}
+// console.log(fn(sum));
+
+
+
+// const mainfn=(x,y,lol)=> lol(x,y);
+// const sum=(x,y)=> x+y;
+// const sub=(x,y)=> x-y
+// console.log(mainfn(2,2,sum));
+// console.log(mainfn(5,2,sub)); 
+
+//Callback Advantages*************************
+//Callbacks can help to make your code more maintainable if you use them well. They will also help you to:
+// Keep your code DRY (Do Not Repeat Yourself)
+// Implement better abstraction where you can have more generic functions like compute that can handle all sorts of functionalities (e.g., sum, product)
+// Improve code readability and maintainability
+//Asynchronous callbacks************************
+// An asynchronous callback is a function that is passed as an argument to
+//  another function and gets invoke zero or multiple times after certain events happens.
+
+// const id = setInterval(() => console.log('tick ⏰'), 1e3);
+// setTimeout(() => clearInterval(id), 8e3);
+
+
+// Callbacks are a way to make sure a particular code doesn’t execute 
+// until another has already finished.
+
+
+//Callback Hell problem and solutions*********************************
+// Callback hell is when you have too many nested callbacks.like bellow 
+// a(() => {
+//     b(() => {
+//       c(() => {
+//         d();
+//       });
+//     });
+//   });
+// Keep you code shallow (avoid too many nested functions): keep your code 
+// at 1-3 indentation levels.
+// Modularize: convert your anonymous callbacks into named functions.
+// Use promises and async/await.
+
+
+
+
+
+//Check callback function before call********
+ // It's very good practice to check the callback argument before it is called.
+//  If the callback argument is not a function type then it will throw an error.
+// const second =()=> console.log('hello world');
+// const first =(x)=> console.log(x());
+// first(second)
+
+
+// function abc() {alert("I am callback function. type checked");}    
+// function xyz(callback){ if (typeof callback == "function")    
+//         callback();    
+//     else    
+//         alert("Argument is not function type");    
+// }    
+// xyz(abc);
+
+
+
+//Pass argument to the callback function*****************************
+// function abc(var1,var2) {    
+//     alert(var1 + var2);    
+// }    
+// function xyz(name,surname,callback) {    
+//     if (typeof callback == "function")    
+//         callback(name,surname);    
+//     else    
+//         alert("Argument is not function type");    
+// }    
+// xyz("Sourav "," Kayal", abc);    
+
+//es6 style
+// const fn1=(x,y,callback)=> callback(x,y);
+// const fn2=(x,y)=> x+y;
+// var s=fn1(2,10,fn2)
+// console.log(s);
+
+
+
+
+//link: https://www.toolsqa.com/javascript/callback-functions-javascript/ 

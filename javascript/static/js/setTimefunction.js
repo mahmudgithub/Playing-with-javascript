@@ -51,3 +51,9 @@ function openWin() {
   setTimeout(function(){ myWindow.close() }, 3000);
 }
 </script> */}
+
+
+
+
+// const fn=()=>{console.log('mahmud');}
+// setTimeout(fn,3000)
