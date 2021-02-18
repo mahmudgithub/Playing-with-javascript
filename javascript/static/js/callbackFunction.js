@@ -10,6 +10,13 @@
 //এখন কলব্যাকের কাজটা কি? আমরা জাভাস্ক্রিপ্ট এর অ্যাসিনক্রোনাস আচরণের কথা জানি।
 // জাভাস্ক্রিপ্ট কোনো কাজ করতে সময় লাগলে সেখানে অপেক্ষা না করে পরের কোডে চলে যায়ঃ
 
+// When to Use a Callback****************************
+// The examples above are not very exciting.
+// They are simplified to teach you the callback syntax.
+// Where callbacks really shine are in asynchronous functions, 
+// where one function has to wait for another function 
+// (like waiting for a file to load).
+
 // const fn=()=>{
 //     console.log('start');
 //     setTimeout(()=>{console.log('first line');},5000);
@@ -79,3 +86,107 @@
 //    console.log(userInfo);
 // });
 // এখানে (userInfo) => {…}পুরোট হচ্ছে কলব্যাক ফাংশন। আর এটার ভিতর থেকেই আমরা ঠিকমতো রিমোট সার্ভার থেকে আসা অ্যাক্সেস করতে পারবো।
+
+
+//more pactics of callback function
+//link:https://www.w3schools.com/js/tryit.asp?filename=tryjs_callback4 
+//es5 style
+// function myDisplayer(some) {
+//     document.getElementById("demo").innerHTML = some;
+//   }
+//   function myCalculator(num1, num2, myCallback) {
+//     let sum = num1 + num2;
+//     myCallback(sum);
+//   }
+//   myCalculator(5, 5, myDisplayer);
+//A callback is a function passed as an argument to another function.
+// Using a callback, you could call the calculator function (myCalculator) 
+// with a callback, and let the calculator function run the callback after 
+// the calculation is finished:
+// In the example above, myDisplayer is the name of a function.
+// It is passed to myCalculator() as an argument.
+// When you pass a function as an argument, remember not to use parenthesis.
+// Right: myCalculator(5, 5, myDisplayer);
+// // Wrong: myCalculator(5, 5, myDisplayer());.
+//es6 style
+// function one(num1, num2, x) {let sum = num1 + num2; x(sum);}
+// function two(some) {console.log(some);}
+// one(5, 5, two);
+
+
+
+// const fun1=()=>{
+//     return 'hello';
+// }
+// const fun2=(x)=>{
+//     console.log(x());
+// }
+// fun2(fun1)
+
+
+//link:https://www.impressivewebs.com/callback-functions-javascript/ 
+// function mySandwich(param1, param2, callback) {
+//     console.log('Started eating my sandwich. It has: ' + param1 + ', ' + param2);
+//     callback();
+//   }
+  
+//   mySandwich('ham', 'cheese', function() {
+//     console.log('Finished eating my sandwich.');
+//   });
+
+
+
+//if define call back function but not use , console show error************
+// function mySandwich(param1, param2, callback) {
+//     console.log('Started eating my sandwich. It has: ' + param1 + ', ' + param2);
+//     callback();
+//   } 
+//   // Missing required argument. Check the browser's developer tools for the error message: Uncaught TypeError: callback is not a function at mySandwich
+//   mySandwich('ham', 'cheese');
+
+
+
+//handel unuse callback function ********************
+// function mySandwich(param1, param2, callback) {
+//     console.log('Started eating my sandwich. It has: ' + param1 + ', ' + param2);
+//     if (callback) {
+//       callback();
+//     }
+//   }
+//   // No third argument, but no error because we check for the callback first.
+//   mySandwich('ham', 'cheese');
+
+
+
+
+//links:vhttps:www.freecodecamp.org/news/javascript-callback-functions-what-are-callbacks-in-js-and-how-to-use-them/v 
+//What is a Callback Function?
+//In JavaScript, functions are objects. Can we pass objects to functions as parameters? Yes.
+//So, we can also pass functions as parameters to other functions and call them inside
+// the outer functions. Sounds complicated? Let me show that in an example below:
+// function lol(callback){
+//     console.log('hello');
+//     callback();
+// }
+// function pol(){
+// }
+// lol(pol)
+//The lol( ) function takes another function as a parameter and calls it inside.
+// This is valid in JavaScript and we call it a “callback”. So a function that is 
+//passed to another function as a parameter is a callback function. 
+//Why do we need Callback Functions?
+//JavaScript runs code sequentially in top-down order. However, there are some cases
+//that code runs (or must run) after something else happens and also not sequentially. 
+//This is called asynchronous programming.
+//Callbacks make sure that a function is not going to run before a task is completed
+// but will run right after the task has completed. It helps us develop asynchronous
+// JavaScript code and keeps us safe from problems and errors.
+//In JavaScript, the way to create a callback function is to pass it as a parameter 
+//to another function, and then to call it back right after something has happened or 
+//some task is completed. Let’s see how…
+// How to create a Callback
+// To understand what I’ve explained above, let me start with a simple example. 
+// We want to log a message to the console but it should be there after 3 seconds.
+//asychonus function
+const fn=()=>{console.log('hello');}
+setTimeout(fn,5000)
