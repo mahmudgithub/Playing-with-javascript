@@ -52,4 +52,12 @@
 // fn1(fn2)
 
 
+// returan one function to another function*****************************
+//একটা ফাংশন থেকে আরেকটা ফাংশনও রিটার্ণ করতে পারবেনঃ
+//es5 style
+// function one(){
+//     console.log('hello');
+//     return function(y){console.log('world'+y);}
+// }
+// one()('is good')
 
