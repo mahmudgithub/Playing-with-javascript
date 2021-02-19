@@ -168,4 +168,143 @@
 //  })
 
 
-////example:3
+//example:3
+// //create a promise
+// const one=lol=>{return new Promise((resolve,reject)=>{setTimeout(() => { if(lol){resolve('got data')}else{reject('no data')}    
+// }, 3000);})}
+// //call promise
+// one(false)
+// //handel promise
+// .then((data)=>{console.log(data);}).catch((err)=>{console.log(err);})
+
+
+// //example:4
+// const vari=lol=>{return new Promise((resolve,reject)=>{setTimeout(() => {if (lol){resolve('got data')}else{'no data'}    
+// }, 3000);})}
+// vari(true)
+// .then((data)=>{console.log(data);})
+// .catch((err)=>{console.log(err);})
+
+////example:5
+// const vari=lol=>{return new Promise((resolve,reject)=>{setTimeout(() => {if (lol){resolve('get data')}else{reject('reject data')}
+    
+// }, 3000);})}
+
+// vari(true).then((data)=>{console.log(data);}).catch((err)=>{console.log(err);})
+
+
+
+//fetch exampel
+////exanpl:5
+// const vari=fetch('https://jsonplaceholder.typicode.com/posts')
+// vari.then((data)=>{return data.json()}).then((post)=>{console.log(post);}).catch((err)=>{console.log(err);})
+
+// // example:6
+// const one= fetch('https://jsonplaceholder.typicode.com/posts')
+// one.then((data)=>{return data.json()}).then((x)=>{console.log(x);}).catch((err)=>{console.log(err);})
+
+
+
+
+
+
+//link:https://dmitripavlutin.com/javascript-promises-settimeout/ 
+//Promises Are Faster Than setTimeout()**********************************
+// //Let’s try an experiment. What does execute faster: an immediately resolved promise
+// // or an immediate timeout (aka a timeout of 0 milliseconds)?  
+//   setTimeout(()=> {
+//     console.log('Timed out!');
+//   });
+
+//   Promise.resolve(1).then((resolve)=> {
+//     console.log('Resolved!');
+//   },0);
+// //Promise.resolve(1) is a static function that returns an immediately resolved promise.
+// // setTimeout(callback, 0) executes the callback with a delay of 0 milliseconds.
+// //Open the demo and check the console. You’ll notice that 'Resolved!' is logged first, 
+// //then 'Timeout completed!'. An immediately resolved promise is processed faster 
+// //than an immediate timeout.
+// //Might the promise process faster because the Promise.resolve(true).then(...) 
+// //was called before the setTimeout(..., 0)? Fair enough question.
+// //The experiment has demonstrated that an immediately resolved promise is 
+// //processed before an immediate timeout. The big question is… why?
+
+
+
+
+
+//link:https://www.freecodecamp.org/news/javascript-es6-promises-for-beginners-resolve-reject-and-chaining-explained/ 
+//What is a Promise**************************************
+// A promise in JavaScript is similar to a promise in real life. When we make
+//  a promise in real life, it is a guarantee that we are going to do something in 
+//  the future. Because promises can only be made for the future.
+// A promise has 2 possible outcomes: it will either be kept when the time comes,
+//  or it won’t.
+// This is also the same for promises in JavaScript. When we define a promise 
+// in JavaScript, it will be resolved when the time comes, or it will get rejected.
+// First of all, a Promise is an object. There are 3 states of the Promise object:
+// Pending: Initial State, before the Promise succeeds or fails
+// Resolved: Completed Promise
+// Rejected: Failed Promise
+// For example, when we request data from the server by using a Promise,
+//  it will be in pending mode until we receive our data.
+// If we achieve to get the information from the server,
+//  the Promise will be resolved successfully. But if we don’t get the information, 
+//  then the Promise will be in the rejected state.
+// Additionally, if there are multiple requests, then after the first Promise is resolved
+//  (or rejected), a new process will start to which we can attach it directly by a method
+// called chaining.
+
+
+//What is the difference between Callbacks and Promises******************
+// The main difference between Callback Functions and Promises is that we attach 
+// a callback to a Promise rather than passing it. So we still use callback 
+// functions with Promises, but in a different way (chaining).
+
+
+//What is Chaining******************************
+// Callback functions have been used alone for asynchronous operations in JavaScript 
+// for many years. But in some cases, using Promises can be a better option.
+// If there are multiple async operations to be done and if we try to use good-old 
+// Callbacks for them, we’ll find ourselves quickly inside a situation called Callback hell
+
+
+//Creating and Using A Promise Step by Step******************
+// //Firstly, we use a constructor to create a Promise object:
+// const lol=new Promise();
+// //It takes two parameters, one for success (resolve) and one for fail (reject):
+// const lol=new Promise((resolve,reject)=>{ // write conditon here 
+// })
+// //Finally, there will be a condition. If the condition is met, 
+// //the Promise will be resolved, otherwise it will be rejected
+// const lol = new Promise((resolve, reject) => {  
+//     let condition;  
+//     if(condition is met) {    
+//         resolve('Promise is resolved successfully.');  
+//     } else {    
+//         reject('Promise is rejected');  
+//     }
+// });
+////So we have created our first Promise. Now let's use it.
+
+// //then( ) for resolved Promises**********************************
+// // If you revisit the picture at the beginning of this post, 
+// // you'll see that there are 2 cases: One for resolved promises and one for rejected. 
+// // If the Promise gets resolved (success case), then something will 
+// // happen next (depends on what we do with the successful Promise).
+// lol.then();
+// // The then( ) method is called after the Promise is resolved. 
+// // Then we can decide what to do with the resolved Promise.
+// // For example, let’s log the message to the console that we got from the Promise:
+// lol.then((message) => {console.log(message);});
+
+//.catch( ) for rejected Promises******************************
+// // However, the then( ) method is only for resolved Promises. What if the Promise fails?
+// //  Then, we need to use the catch( ) method.
+// // Likewise we attach the then( ) method. We can also directly attach 
+// // the catch( ) method right after then( ):
+// lol.then((data) => {console.log(data);}).catch((data) => { console.log(data);});
+// //So if the promise gets rejected, it will jump to the catch( ) method 
+// //and this time we will see a different message on the console.
+
+
