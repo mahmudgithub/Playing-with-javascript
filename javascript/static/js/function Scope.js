@@ -26,7 +26,7 @@
 // //but if i can try this local scope in global call, it show error
 // //কিন্তু এখন যদি আমরা এই localভ্যারিয়েবলটাকে এই localScope()এর বাইরে কোথাও 
 // //বা অন্য কোনো ফাংশনেও অ্যাক্সেস করতে চাই, তাহলে সেটা অ্যাক্সেস করা যাবে না এবং এক্ষেত্রে রিয়েল এরর পাবেন।
-// fn=()=>{var names='mahmd'; console.log(names);};fn();console.log(names);
+// fn=()=>{var names='mahmd';};fn();console.log(names);  //ouput error
 
 
 
