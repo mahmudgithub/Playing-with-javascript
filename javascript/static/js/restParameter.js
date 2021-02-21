@@ -1,3 +1,31 @@
+// today 10.2.2021 
+// // rest operetor pactics **********************
+// //rest operetor may be accept more parameter value by one paramete as a array
+// let one=(first,second,...more)=>{
+//     console.log(first);
+//     console.log(second);
+//     console.log(more);
+// }
+// one('mahmud','hossain',1,2,3,4,5,6)
+// const names=(...names)=>{
+//     console.log(names);  //this genaral way to show output 
+//     console.log(...names)  //this is spred operetor way to show output 
+// }
+// names('mahmud','hossain','nannau')
+
+// const lol=(a,b, ...more)=>{
+//     console.log(a ,b);
+//     console.log(more);
+//     console.log(...more);
+// }
+// lol('mahmud','hossain',1,3,4,5,5,6,7)
+
+// const lol=(...a)=>{
+//     console.log(a);
+// }
+// lol(1,2,3,4,5,6)
+
+
 //https://js.zonayed.me/es6/post-8 
 //রেস্ট(Rest) প্যারামিটার*********************************
 // //এর সাহায্যে আন্ডিফাইন্ড অ্যামাউন্ট প্যারামিটার পাস করা যায় একটা ফাংশনের ভিতর দিয়ে। 
