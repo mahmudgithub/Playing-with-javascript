@@ -105,5 +105,39 @@
 
 
 
+//link:https://js.zonayed.me/es6/post-5 
+// //ধরি আমাদের নিচে এই অ্যারেটা আছেঃ
+// const arr = ['mahmud', 21, 'Student'];
+// const [one,two,three]=arr;
+// console.log(one);
+// console.log(three);
+
+
+// //সেইম কাজ আমরা অবজেক্ট এর ক্ষেত্রেও করতে পারি। তবে এখানে আমাদের আরো অনেক ফ্লেক্সিবিলিটি আছে
+// const obj={
+//     names:'mahmud',
+//     age:26,
+//     city:'raj'
+// }
+// const {age}=obj
+// console.log(age);
+
+
+
+// //অবজেক্ট এর ভিতরে অবজেক্ট রয়েছেঃ
+// const arr={
+//         names:"mahmud",
+//         city:{
+//             love:'lamyaa',
+//             other:{
+//                 village:'binodpur'
+//             }
+//         }
+//     }
+    
+// const {names,city:{love,other:{village}}}=arr
+// console.log(love);
+
+
 
 
