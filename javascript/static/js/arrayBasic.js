@@ -134,12 +134,12 @@
 //// তো আপনি চাইলে রিমুভ করা ডাটাগুলোও আবার আরেকটা ভ্যারিয়েবলে স্টোর করে রাখতে পারবেন।
 //// ধরি আমাদের একটা অ্যারে আছেঃ
 // var newArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
-//// এখন এটার ইন্ডেক্স নাম্বার ৩ থেকে বাকী সবগুলো স্প্লাইস করে ফেললাম,
-////  আর স্প্লাইসড ডাটাগুলো spliceArrতে স্টোর করলামঃ
-// var spliceArr = newArr.splice(3)
-//// এখন মেইন অ্যারেটা দেখলেঃ
+// // এখন এটার ইন্ডেক্স নাম্বার ৩ থেকে বাকী সবগুলো স্প্লাইস করে ফেললাম,
+// //  আর স্প্লাইসড ডাটাগুলো spliceArrতে স্টোর করলামঃ
+// var spliceArr = newArr.splice(4)
+// // এখন মেইন অ্যারেটা দেখলেঃ
 // console.log(newArr);
-//// আর আমাদের এই নতুন spliceArrটা দেখলেঃ
+// // আর আমাদের এই নতুন spliceArrটা দেখলেঃ
 // console.log(spliceArr);
 
 
@@ -180,9 +180,9 @@
 
 
 //slice method *********************
-// JavaScript এ কিভাবে একটা array এর নির্দিষ্ট অংশ কেটে নিয়ে নতুন একটা array তৈরী করবেন?
-// JavaScript এ একটা array এর নির্দিষ্ট অংশ কেটে নিয়ে নতুন একটা array তৈরী করতে হলে 
-// আপনাকে slice() Method টি ব্যবহার করতে হবে।
+//// JavaScript এ কিভাবে একটা array এর নির্দিষ্ট অংশ কেটে নিয়ে নতুন একটা array তৈরী করবেন?
+//// JavaScript এ একটা array এর নির্দিষ্ট অংশ কেটে নিয়ে নতুন একটা array তৈরী করতে হলে 
+//// আপনাকে slice() Method টি ব্যবহার করতে হবে।
 // var fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
 // var citrus = fruits.slice(0,2);
 // document.getElementById('test').innerHTML =citrus;
@@ -191,9 +191,9 @@
 
 
 //sort method *************************
-// JavaScript এ array element গুলোকে কিভাবে alphabetically sort করবেন ?
-// JavaScript এ array element গুলোকে alphabetically sort করতে হলে 
-// আপনাকে sort() Method টি ব্যবহার করতে হবে।
+//// JavaScript এ array element গুলোকে কিভাবে alphabetically sort করবেন ?
+//// JavaScript এ array element গুলোকে alphabetically sort করতে হলে 
+//// আপনাকে sort() Method টি ব্যবহার করতে হবে।
 // var fruits = ["Banana", "Orange", "Apple", "Mango"];
 // document.getElementById("test").innerHTML = (fruits.sort());
 
@@ -201,23 +201,23 @@
 
 
 //reverse method **********************
-// JavaScript এ array element গুলোকে কিভাবে reverse অর্ডারে sort করবেন?
-// JavaScript এ array element গুলোকে reverse অর্ডারে sort করার জন্য
-//  আপনি reverse() Method টি ব্যবহার করতে পারেন।
+//// JavaScript এ array element গুলোকে কিভাবে reverse অর্ডারে sort করবেন?
+//// JavaScript এ array element গুলোকে reverse অর্ডারে sort করার জন্য
+////  আপনি reverse() Method টি ব্যবহার করতে পারেন।
 // var fruits = ["Banana", "Orange", "Apple", "Mango"];
 // document.getElementById("test").innerHTML = (fruits.reverse());
 
 
 //numerical array ites short *************
-// JavaScript এ Numerical array এর element গুলোকে কিভাবে sort করবেন ?
+//// JavaScript এ Numerical array এর element গুলোকে কিভাবে sort করবেন ?
 // var points = [40, 100, 1, 5, 25, 10];
 // document.getElementById("test").innerHTML = points.sort(function(a, b){return a - b});
 
 
 
 //deceding mthod ***********************
-// তবে আপনি চাইলে JavaScript এ Numerical array এর element গুলোকে descending 
-// অর্ডারে sort করতে হলেও আগের টেকনিক টির সামান্য পরিবর্তন করে দিলেই হবে 
+//// তবে আপনি চাইলে JavaScript এ Numerical array এর element গুলোকে descending 
+//// অর্ডারে sort করতে হলেও আগের টেকনিক টির সামান্য পরিবর্তন করে দিলেই হবে 
 // var points = [40, 100, 1, 5, 25, 10];
 // document.getElementById("test").innerHTML =points.sort(function(a, b){return b-a});
 
