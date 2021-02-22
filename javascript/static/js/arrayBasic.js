@@ -6,20 +6,19 @@
 // // JavaScript এ array literal উপায়ে অ্যারে তৈরি করার সবচেয়ে সহজ। যার সিনটেক্স হচ্ছে নিম্নরূপ :
 // // var array_name = [item1, item2, ...]; 
 //simple array make*****************
-// make a array and access this array
+//// make a array and access this array
 // const arr=['mahmud','hossain','lamyaa']
 // console.log(arr);
 
 
-
 //access array value by index number**************
-// ইন্ডেক্স নাম্বার সাহায্য করবে আপনাকে অ্যারে থেকে স্পেসেফিক কোনো ডাটা বের করে আনতে।
+//// ইন্ডেক্স নাম্বার সাহায্য করবে আপনাকে অ্যারে থেকে স্পেসেফিক কোনো ডাটা বের করে আনতে।
 // console.log(arr[1]);
 
 
 
 //change any specific index value of arry************
-// এখন যদি আপনি স্পেসেফিক কোনো ভ্যালুও চেঞ্জ করতে চান তাহলেও পারবেন এই ইন্ডেক্স নাম্বারের সাহায্যেই
+//// এখন যদি আপনি স্পেসেফিক কোনো ভ্যালুও চেঞ্জ করতে চান তাহলেও পারবেন এই ইন্ডেক্স নাম্বারের সাহায্যেই
 // console.log(arr[0]='change');
 
 
@@ -32,8 +31,8 @@
 
 
 // length method ************************
-// অ্যারেতে কয়টা আইটেম আছে সেটা জানার জন্যে lengthপ্রপার্টিজ অ্যাক্সেস করতে চাই 
-// তাহলে আমাদের এভাবে লিখতে হবে arrName.length
+//// অ্যারেতে কয়টা আইটেম আছে সেটা জানার জন্যে lengthপ্রপার্টিজ অ্যাক্সেস করতে চাই 
+//// তাহলে আমাদের এভাবে লিখতে হবে arrName.length
 // console.log(arr.length);
 
 
@@ -94,25 +93,25 @@
 //ইন্ডেস্ক নাম্বার দিয়ে কোনো আইটেম রিমুভ করতেঃ
 //arrName.splice(1, 2);
 //JavaScript এ একটা array এর শুরু ,
-//শেষে এমনকি মধ্যবর্তি যে জায়গাতে কোনো value যুক্ত করতে splice() Method ব্যবহৃত হয়।
+////শেষে এমনকি মধ্যবর্তি যে জায়গাতে কোনো value যুক্ত করতে splice() Method ব্যবহৃত হয়।
 // console.log(arr.splice(0,2));
 
 
 
 // join method ****************
-// এই ফাংশন দিয়ে অ্যারের এলিমেন্টকে স্ট্রিং এ রুপান্তর করা যায় এবং 
-// আপনি চাইলে যেকোন চিহ্ন দিয়ে স্ট্রিংগুলিকে আলাদা করে দেখতে পারেন। 
-// join() এর ভিতর ঐ চিহ্নটি প্যারামিটার হিসেবে পাঠাতে হয়।
+// // এই ফাংশন দিয়ে অ্যারের এলিমেন্টকে স্ট্রিং এ রুপান্তর করা যায় এবং 
+// // আপনি চাইলে যেকোন চিহ্ন দিয়ে স্ট্রিংগুলিকে আলাদা করে দেখতে পারেন। 
+// // join() এর ভিতর ঐ চিহ্নটি প্যারামিটার হিসেবে পাঠাতে হয়।
 // var tutorial = ['HTML', 'CSS', 'JavaScript', 'PHP'];
 // var lol= tutorial.join(',');
-// document.getElementById('test').innerHTML=lol
+// document.getElementById('a').innerHTML=lol
 
 
 
 
 //splice method ****************
-//একটা নির্দিষ্ট ইন্ডেক্স নাম্বার থেকে শুরু করে বাকি সবগুলো রিমুভ করতে 
-//তাইলে প্রথম আর্গুমেন্টে জাস্ট যেখান থেকে রিমুভ করা শুরু করবেন সে ইন্ডেক্স নাম্বারটা দিলেই হবেঃ
+////একটা নির্দিষ্ট ইন্ডেক্স নাম্বার থেকে শুরু করে বাকি সবগুলো রিমুভ করতে 
+////তাইলে প্রথম আর্গুমেন্টে জাস্ট যেখান থেকে রিমুভ করা শুরু করবেন সে ইন্ডেক্স নাম্বারটা দিলেই হবেঃ
 //arrName.splice(3);
 // console.log(arr.splice(1));
 
@@ -130,25 +129,25 @@
 // advance topics on array *****************************
 
 //splice method***************************
-// এখানে একটা জিনিস হয়তো খেয়াল করবেন যে যতবারই আমরা মেথড ইউজ করতেছি, 
-// এটা কিছু ডাটা রিটার্ণ করছে। হ্যাঁ, আমরা যেগুলো রিমুভ করতে চাচ্ছি সেগুলোই রিটার্ন করে এই spliceমেথড। 
-// তো আপনি চাইলে রিমুভ করা ডাটাগুলোও আবার আরেকটা ভ্যারিয়েবলে স্টোর করে রাখতে পারবেন।
-// ধরি আমাদের একটা অ্যারে আছেঃ
+// //এখানে একটা জিনিস হয়তো খেয়াল করবেন যে যতবারই আমরা মেথড ইউজ করতেছি, 
+//// এটা কিছু ডাটা রিটার্ণ করছে। হ্যাঁ, আমরা যেগুলো রিমুভ করতে চাচ্ছি সেগুলোই রিটার্ন করে এই spliceমেথড। 
+//// তো আপনি চাইলে রিমুভ করা ডাটাগুলোও আবার আরেকটা ভ্যারিয়েবলে স্টোর করে রাখতে পারবেন।
+//// ধরি আমাদের একটা অ্যারে আছেঃ
 // var newArr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0];
-// এখন এটার ইন্ডেক্স নাম্বার ৩ থেকে বাকী সবগুলো স্প্লাইস করে ফেললাম,
-//  আর স্প্লাইসড ডাটাগুলো spliceArrতে স্টোর করলামঃ
+//// এখন এটার ইন্ডেক্স নাম্বার ৩ থেকে বাকী সবগুলো স্প্লাইস করে ফেললাম,
+////  আর স্প্লাইসড ডাটাগুলো spliceArrতে স্টোর করলামঃ
 // var spliceArr = newArr.splice(3)
-// এখন মেইন অ্যারেটা দেখলেঃ
+//// এখন মেইন অ্যারেটা দেখলেঃ
 // console.log(newArr);
-// আর আমাদের এই নতুন spliceArrটা দেখলেঃ
+//// আর আমাদের এই নতুন spliceArrটা দেখলেঃ
 // console.log(spliceArr);
 
 
 
 //length method *************
-//JavaScript এ একটা array তে কতগুলো এলিমেন্ট আছে তা কিভাবে জানব ?
-// JavaScript এ একটা array তে কতগুলো এলিমেন্ট আছে তা জানতে হলে আপনাকে 
-// এর array Object এর length property টি ব্যবহার করতে হবে।
+////JavaScript এ একটা array তে কতগুলো এলিমেন্ট আছে তা কিভাবে জানব ?
+// //JavaScript এ একটা array তে কতগুলো এলিমেন্ট আছে তা জানতে হলে আপনাকে 
+// //এর array Object এর length property টি ব্যবহার করতে হবে।
 // var fruits = ["Banana", "Orange", "Apple", "Mango"];
 // document.getElementById("test").innerHTML = fruits.length;
 
@@ -156,22 +155,22 @@
 
 
 //toString method **********************
-// JavaScript এ একটা array এর value গুলোকে কিভাবে string আকারে প্রদর্শন করব?
-// JavaScript এ একটা array এর value গুলোকে string আকারে প্রদর্শন করতে হলে 
-// আপনাকে toString() Method অথবা join() Method ব্যবহার করতে হবে। 
-// এক্ষেত্রে toString() মেথড বাই ডিফল্ট array এর value গুলোকে কমা (,) দিয়ে প্রদর্শন করে ,
-// অন্যদিকে join() Method এ আপনি চাইলে নিজস্ব separator ব্যবহার করতে পারেন।
-// তাহলে চলুন উদাহরণে দেখা যাক:
+// // JavaScript এ একটা array এর value গুলোকে কিভাবে string আকারে প্রদর্শন করব?
+// // JavaScript এ একটা array এর value গুলোকে string আকারে প্রদর্শন করতে হলে 
+// // আপনাকে toString() Method অথবা join() Method ব্যবহার করতে হবে। 
+// // এক্ষেত্রে toString() মেথড বাই ডিফল্ট array এর value গুলোকে কমা (,) দিয়ে প্রদর্শন করে ,
+// // অন্যদিকে join() Method এ আপনি চাইলে নিজস্ব separator ব্যবহার করতে পারেন।
+// // তাহলে চলুন উদাহরণে দেখা যাক:
 // var fruits = ["Banana", "Orange", "Apple", "Mango"];
-// document.getElementById("test").innerHTML = fruits.toString();
-// document.getElementById("test").innerHTML = fruits.join();
+// document.getElementById("a").innerHTML = fruits.toString();
+// document.getElementById("a").innerHTML = fruits.join();
 
 
 
 
 //concrete method *********************
-// avaScript এ কিভাবে দুই বা ততোধিক array কে merge করবেন?
-// JavaScript এ দুই বা ততোধিক array কে merge করার জন্য concat() method টি ব্যবহৃত হয়।
+//// avaScript এ কিভাবে দুই বা ততোধিক array কে merge করবেন?
+//// JavaScript এ দুই বা ততোধিক array কে merge করার জন্য concat() method টি ব্যবহৃত হয়।
 // var list1 = ["Sahin", "Ikram"];
 // var list2 = ["Ridoy", "Sourov", "tariqul"];
 // var all = list1.concat(list2);
