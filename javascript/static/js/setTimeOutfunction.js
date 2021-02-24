@@ -133,3 +133,29 @@ function openWin() {
 // আগের উদহারনে জাভাস্ক্রিপ্টের কোড এই কোড দিয়ে প্রতিস্থাপন করে প্রয়োগ দেখে নিতে পারেন।
 // এখানে যদিও setTimeout() ফাংশনটি জাভাস্ক্রিপ্টের ফাংশন, তবে আমরা উদহারনে জেকোয়েরি ব্যবহার করেছি।
 
+// //set timeout with function in invock 
+// (function lol(){setTimeout(()=>{console.log('hello');},4000)})()
+
+
+// //set timeout with map method
+// const arr=[1,2,3,4,5,6,7,8,9,10];
+// (fn=()=>{
+//   arr.map((item)=>{
+//     console.log(item);
+//   });
+//   arr.map((item)=>{
+//     console.log(item<5);
+//     return item<5;
+//   });
+//   setTimeout(()=>{
+//     arr.map((item,index,array)=>{
+//       console.log(index,item,array);
+//     });
+//     setTimeout(()=>{
+//       arr.filter((item)=>{
+//         console.log(item<2,item);
+//       })
+//     },7000);
+
+//   },5000);
+// })();

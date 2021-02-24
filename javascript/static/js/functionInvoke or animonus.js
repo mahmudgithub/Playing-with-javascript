@@ -127,3 +127,15 @@
 //    }}
    
 //    myName();
+
+
+// //paramaterise invock function
+// const lol=((x,y)=>{console.log(x+y);})(2,3);
+
+
+// //two invock function communicate
+// // const lol1=(fn=()=>{ var num=10; return num;})();
+// // const lol2=(fn2=()=>{return lol1.num})();console.log(lol2);
+
+// const one=(function(){var num=10; return num})();
+// const two=(function(){return one.num})();console.log(two);

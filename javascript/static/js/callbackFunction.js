@@ -146,7 +146,7 @@
 
 
 
-//handel unuse callback function ********************
+//handel un use callback function ********************
 // function mySandwich(param1, param2, callback) {
 //     console.log('Started eating my sandwich. It has: ' + param1 + ', ' + param2);
 //     if (callback) {

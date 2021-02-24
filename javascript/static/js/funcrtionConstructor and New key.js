@@ -108,4 +108,8 @@
 //     console.log(this.city);
     
 // }
-// console.log(person.board());
+// var sos=new person('mahmdu',26,'raj');
+// sos.board();
+// console.log(sos);
+// console.log(sos.board());
+// console.log(sos.age);
