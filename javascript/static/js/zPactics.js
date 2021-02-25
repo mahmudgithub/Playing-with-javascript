@@ -106,6 +106,16 @@
 // const lol=fn=>{setTimeout(()=>{console.log('hekki');},2000)}
 // lol()
 
-//short from of setTimeout function
-const lol=fn=()=>{console.log('hello');}
-setTimeout(lol,2000);
+// //short from of setTimeout function
+// const lol=fn=()=>{console.log('hello');}
+// setTimeout(lol,2000);
+
+
+//pactuics asychonus function
+//callback funcrtion
+const one=fn=(callback)=>{callback();};
+const two=fn2=()=>{console.log('hello world');};
+one(two)
+//settime out function with callback 
+const three=fn3=>{setTimeout(()=>{console.log('hwllo mis you');},3000)}
+one(three)
