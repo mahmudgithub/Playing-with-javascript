@@ -67,3 +67,11 @@
 //        // console.log(response.data[0]);
 //        setCataproduct(response.data[0])
 //    })}
+// const getMyName = new Promise((resolve) => {
+//     return resolve('Zonayed');
+//  })
+//  const lol=async()=>{
+//     const data= await lol;
+//     console.log(data); 
+//  }
+//  lol()

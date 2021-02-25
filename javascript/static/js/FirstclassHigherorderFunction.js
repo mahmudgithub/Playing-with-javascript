@@ -7,15 +7,48 @@
 // ফাংশনকে ভ্যারিয়েবল হিসাবেও স্টোর করতে পারবেন।
 
 //function pass as an argument
-//ফাংশনকে আর্গুমেন্ট হিসেবে পাস করাঃ
-// const fun1=(name,callback)=>{
-//     let age=26;
-//     callback(age)
-//     console.log(name);
+// //ফাংশনকে আর্গুমেন্ট হিসেবে পাস করাঃ
+// const fun1=(names,callback)=>{var age=26;var city='rajshahi';callback(age,city);console.log(names);}
 
-// }
-
-// const fun2=(city)=>{
-//     console.log(city);
-// }
+// const fun2=(x,y)=>{console.log(x,y);}
 // fun1('mahmud', fun2);
+
+
+// const one=(names,callback2)=>{ var city='rajshai'; callback2(city); console.log(names);};
+// const two=(y)=>{console.log(`my city :${y}`);};
+// one('mahmud',two)
+
+
+// //ফাংশন থেকে ফাংশন রিটার্ন করাঃ
+// fn=()=>{
+//     return ()=>{
+//         console.log('i am innner function');
+//     }
+// }
+// fn()()
+
+//map function
+// //map একটা হায়ার অর্ডার ফাংশন আর আমার মতে সবচেয়ে বেশী ইউসড একটা ফাংশন। 
+// //এর কাজ হচ্ছে একটা অ্যারের সবগুলা আইটেম নিয়ে সেগুলার উপরে স্পেসেফিক কোনো ফাংশন অ্যাপ্লাই করে
+// const arr=[1,2,3,4,5]
+// const lol=fn=()=>console.log(arr);
+// lol()
+
+//now using map method ,multiply eatch array elments and keep it another array
+// const arr=[1,2,3,4,5];
+// const one=arr.map((item)=>{
+//     return item*item;
+// })
+// console.log(one);
+// one.push(6);
+// console.log(one);
+// const two=one.map((item2)=>{return item2*2});
+// console.log(two);
+// const three=two.reduce((total,item)=>{
+//     return total+item;
+// })
+// console.log(three);
+// const four=arr.filter((item)=>{
+//     return (item%2==0);
+// })
+// console.log(four);;
