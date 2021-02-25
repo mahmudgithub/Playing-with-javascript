@@ -102,6 +102,10 @@
 // setTimeout(()=>{console.log('i am setTime function');},3000)
 
 
-//setTime out function
-const lol=fn=>{setTimeout(()=>{console.log('hekki');},2000)}
-lol()
+// //setTime out function
+// const lol=fn=>{setTimeout(()=>{console.log('hekki');},2000)}
+// lol()
+
+//short from of setTimeout function
+const lol=fn=()=>{console.log('hello');}
+setTimeout(lol,2000);
