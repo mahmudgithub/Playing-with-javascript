@@ -119,3 +119,5 @@ one(two)
 //settime out function with callback 
 const three=fn3=>{setTimeout(()=>{console.log('hwllo mis you');},3000)}
 one(three)
+
+console.log('hi');
