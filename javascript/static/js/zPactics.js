@@ -112,12 +112,18 @@
 
 
 //pactuics asychonus function
-//callback funcrtion
-const one=fn=(callback)=>{callback();};
-const two=fn2=()=>{console.log('hello world');};
-one(two)
-//settime out function with callback 
-const three=fn3=>{setTimeout(()=>{console.log('hwllo mis you');},3000)}
-one(three)
+// //callback funcrtion
+// const one=fn=(callback)=>{callback();};
+// const two=fn2=()=>{console.log('hello world');};
+// one(two)
+// //settime out function with callback 
+// const three=fn3=>{setTimeout(()=>{console.log('hwllo mis you');},3000)}
+// one(three)
 
-console.log('hi');
+// console.log('hi');
+
+
+//map function
+const arr=[1,2,3,4,5];
+arr.map((item)=>{console.log(item);});
+const x=arr.reduce((total,item)=>{return total+item});console.log(x);
