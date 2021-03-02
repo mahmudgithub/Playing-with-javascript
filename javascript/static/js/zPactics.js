@@ -139,3 +139,14 @@
 // time
 // three();
 // four();
+
+// //example of callback function
+// var one=fn=(x)=>{console.log(`value of x :${x}`);}
+// // one(5)
+// // var two=one
+// // two(10)
+// var two=fn2=(num,callback)=>{
+// callback(num);
+// }
+// two(100,fn)
+
