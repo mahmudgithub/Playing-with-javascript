@@ -150,3 +150,12 @@
 // }
 // two(100,fn)
 
+const one=fn1=(x,callback)=>{
+    callback(x);
+    
+}
+const two=fn2=(y)=>{
+    console.log('i am callback function'+y);
+
+}
+one(10,two)
