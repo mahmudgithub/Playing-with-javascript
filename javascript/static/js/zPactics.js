@@ -123,7 +123,7 @@
 // console.log('hi');
 
 
-//map function
-const arr=[1,2,3,4,5];
-arr.map((item)=>{console.log(item);});
-const x=arr.reduce((total,item)=>{return total+item});console.log(x);
+// //map function
+// const arr=[1,2,3,4,5];
+// arr.map((item)=>{console.log(item);});
+// const x=arr.reduce((total,item)=>{return total+item});console.log(x);

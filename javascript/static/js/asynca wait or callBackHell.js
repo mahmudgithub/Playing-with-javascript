@@ -75,3 +75,63 @@
 //     console.log(data); 
 //  }
 //  lol()
+
+
+//crate a promises
+// const lol=fn=>{return new Promise((resolve,reject)=>{setTimeout(()=>{if(fn){resolve('i am data')}else{reject('i am error ')}},3000)})}
+// lol(false).then((data)=>{console.log(data);})
+// .catch((err)=>{console.log(err);})
+
+// const lol=fn=>{return new Promise((resolve,reject)=>{setTimeout(()=>{
+//     if(true){reject('i am reject datas');}
+//     else{resolve('i am real data');}
+// },8000)
+// })}
+// // lol(false)
+// // .then((res)=>{console.log(res);})
+// // .catch((err)=>{console.log(err);})
+// const one=async() => {
+//     try{
+//     const data= await lol();
+//     console.log(data);
+//     }
+//     catch(err){
+//         console.log(err);
+//     }
+    
+// }
+// one()
+
+
+// const getnames=fn=>{return new Promise((resolve,reject)=>{if(fn){resolve('mahmud');}else{reject('i am fail')}})}
+// const getage=fn2=(names)=>{return new Promise((resolve,reject)=>{if(names==='mahmud'){resolve(26);}else{reject('not found')}})}
+// getnames.then((names)=>{
+//     getage(names).then((age)=>{
+//         console.log(` name is ${names} and age is ${age}`);
+//     })
+// })
+
+// const getMyName = new Promise((resolve) => setTimeout(()=>{{
+//     return resolve('Zonayed');
+//  }},3000))
+
+//  const getAge = (name) => {
+//     return new Promise((resolve, reject) => setTimeout(()=>{
+//         if(name === 'Zonayed') {
+//            resolve(21);
+//         } else {  
+//            reject('Not Found!');
+//         }
+//      },5000)
+//  )}
+//  getMyName.then((name) => {
+//     getAge(name).then((age) => {
+//        console.log('My name is ' + name + ' and I am ' + age + ' years old!');
+//     })
+//  })
+
+// async function foo() {
+//    const result1 = await new Promise((resolve) => setTimeout(() => resolve('1')))
+//    const result2 = await new Promise((resolve) => setTimeout(() => resolve('2')))
+// }
+// foo()

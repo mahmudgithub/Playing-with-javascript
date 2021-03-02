@@ -59,3 +59,58 @@
 // }
 
 //
+//simple try catch application , no erro in try block
+// try{
+// console.log(' i am try block');
+// }
+// catch(err){  ////it is mandatoty to keep an variable in parenthesis
+//     console.log('i am catch block ');
+
+// }
+
+//now create an error in try block
+// try{
+// x=wwww
+// console.log(x);
+// }
+// catch(err){
+// console.log(' i am catch block');
+// }
+
+//print error only 
+// try{
+//     console.log(s);
+// }
+// catch(err){
+//     console.log('i am catch ');
+//     console.log(err);
+// }
+//print error names and message
+// try{
+//     console.log(d);
+// }
+// catch(err){
+//     console.log(err.name);
+//     console.log(err.message);
+// }
+// //try catch and finally block
+// try{
+//     console.log(s);
+// }
+// catch(err){
+//     console.log(err);
+//     console.log(err.name);
+//     console.log(err.message);
+// }
+// finally{
+//     console.log('i run must cause i am finally');
+// }
+// //try catch not handel any program error
+// try{
+//     console.log('hello';
+// }
+// catch(err){
+//     console.log(err);
+//     console.log(err.name);
+//     console.log(err.message);
+// }
