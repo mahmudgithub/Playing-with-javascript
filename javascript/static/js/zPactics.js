@@ -127,3 +127,15 @@
 // const arr=[1,2,3,4,5];
 // arr.map((item)=>{console.log(item);});
 // const x=arr.reduce((total,item)=>{return total+item});console.log(x);
+
+
+// //asychonus function
+// var one=fn=()=>{console.log('i an one');}
+// var two=fn2=()=>{console.log('i am two');}
+// var time=setTimeout(two,5000);
+// var three=fn3=()=>{console.log('i am three');}
+// var four=fn4=()=>{console.log('i am four');}
+// one();
+// time
+// three();
+// four();

@@ -114,3 +114,18 @@
 //     console.log(err.name);
 //     console.log(err.message);
 // }
+
+// //try catch filly and throw 
+// var num=10;
+// try{
+// if (num<15){
+//     throw 'right anwser'
+// }
+//     else if(num>5){throw 'false anwser'}
+// }
+// catch(err){
+// console.log(err.message);
+// }
+// finally{
+//     console.log('i am finally blog');
+// }
