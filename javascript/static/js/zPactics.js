@@ -150,12 +150,38 @@
 // }
 // two(100,fn)
 
-const one=fn1=(x,callback)=>{
-    callback(x);
+// const one=fn1=(x,callback)=>{
+//     callback(x);
     
-}
-const two=fn2=(y)=>{
-    console.log('i am callback function'+y);
+// }
+// const two=fn2=(y)=>{
+//     console.log('i am callback function'+y);
 
-}
-one(10,two)
+// }
+// one(10,two)
+
+// var one=fn=(callback)=>{console.log('i an one');callback()}
+// var two=fn2=(callback)=>{setTimeout(()=>{
+//     console.log('i am two');
+//     callback()
+// },5000)}
+// var three=fn3=(callback)=>{console.log('i am three');
+// callback()}
+// var four=fn4=(callback)=>{console.log('i am four');callback()}
+// one(()=>{
+//     two(()=>{
+//         three(()=>{
+//             four()
+//         })
+//     })
+// });
+
+// const one=fn1=(callback)=>{console.log(' i am function one'),callback()}
+// const two=fn2=(callback)=>{setTimeout(()=>{console.log('i am function two');},3000),callback()}
+// const three=fn3=(callback)=>{setTimeout(()=>{console.log('i am function three');},7000),callback()}
+// one(()=>{
+//     three(()=>{
+//         two()
+//     })
+// })
+
