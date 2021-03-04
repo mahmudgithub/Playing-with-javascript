@@ -191,21 +191,31 @@
 // console.log(arrOfStr.map(oneStr => oneStr.split(' ')));
 // console.log(arrOfStr.flatMap(oneStr => oneStr.split(' ')));
 
-//callback function
-const one=fn1=(callback)=>{
-    console.log('i am function one');
-    callback()
-}
-const two=fn2=(callback)=>{
-    console.log('i am function two');
-    callback()
-}
-const three=fn3=(callback)=>{
-    console.log('i am last function');
-    callback()
-}
-one(()=>{
-    two(()=>{
-        three()
-    })
-})
+// //callback function
+// const one=fn1=(callback)=>{
+//     console.log('i am function one');
+//     callback()
+// }
+// const two=fn2=(callback)=>{
+//     console.log('i am function two');
+//     callback()
+// }
+// const three=fn3=(callback)=>{
+//     console.log('i am last function');
+//     callback()
+// }
+// one(()=>{
+//     two(()=>{
+//         three()
+//     })
+// })
+
+// //map function
+// const lol=['i am mahmud','i alive is rajshahi']
+// lol.map((item)=>{ console.log(item)});
+// console.log(lol.flatMap(oneStr => oneStr.split(' ')));
+// //create a promise
+// const lol=fn=>{return new Promise((resolve,reject)=>{if(fn){resolve('i am true value')}else(reject('i am false value'))})}
+// lol(false)
+// .then((data)=>{console.log(data);})
+// .catch((err)=>{console.log(err);})
