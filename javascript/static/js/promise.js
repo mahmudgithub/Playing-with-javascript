@@ -196,9 +196,16 @@
 
 //fetch exampel
 ////exanpl:5
-// const vari=fetch('https://jsonplaceholder.typicode.com/posts')
+// const vari=fetch('http://192.168.43.125/')
 // vari.then((data)=>{return data.json()}).then((post)=>{console.log(post);}).catch((err)=>{console.log(err);})
 
+// fetch('examples/example.json')
+// .then(function(response) {
+//   // Do stuff with the response
+// })
+// .catch(function(error) {
+//   console.log('Looks like there was a problem: \n', error);
+// });
 // // example:6
 // const one= fetch('https://jsonplaceholder.typicode.com/posts')
 // one.then((data)=>{return data.json()}).then((x)=>{console.log(x);}).catch((err)=>{console.log(err);})

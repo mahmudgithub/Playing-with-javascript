@@ -185,3 +185,27 @@
 //     })
 // })
 
+// const arr = ['a', ['b', 'c', ['d', 'e']]]
+// console.log(arr.flatMap(one => one));
+// const arrOfStr = ['My name is', 'Zonayed Ahmed', 'Zonayed']
+// console.log(arrOfStr.map(oneStr => oneStr.split(' ')));
+// console.log(arrOfStr.flatMap(oneStr => oneStr.split(' ')));
+
+//callback function
+const one=fn1=(callback)=>{
+    console.log('i am function one');
+    callback()
+}
+const two=fn2=(callback)=>{
+    console.log('i am function two');
+    callback()
+}
+const three=fn3=(callback)=>{
+    console.log('i am last function');
+    callback()
+}
+one(()=>{
+    two(()=>{
+        three()
+    })
+})
