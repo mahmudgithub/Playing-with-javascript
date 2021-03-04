@@ -369,3 +369,32 @@
 // })
 // Promise.race([one,two,three,four])
 // .then((res)=>{console.log(res);})
+
+
+// //compire callback and promise chain
+// // //sequence by callback function
+// const one=fn1=(x)=>{x();console.log('i am function one');}
+// const two=fn2=(x)=>{x();console.log('i am function two');}
+// const three=fn3=(x)=>{x();console.log('i am function three');}
+// const four=fn4=(x)=>{x();console.log('i am function four');}
+// one(()=>{
+//     four(()=>{
+//         three(()=>{
+//             two(()=>{})
+//         })
+//     })
+// })
+// console.log('*************************************');
+// //sequence by promise chain
+// const ONE=()=> {return new Promise((resolve,reject)=>{resolve('i am function ONE')})};
+// const TWO=()=>{return new Promise((resolve,reject)=>{resolve('i am function TWO')})};
+// const THREE=()=>{return new Promise((resolve,reject)=>{resolve('i am function THREE')})};
+// const FOUR=()=>{return new Promise((resolve,reject)=>{resolve('i am function FOUR')})};
+// ONE()
+// .then((res)=>{console.log(res);})
+// .then(FOUR)
+// .then((res)=>{console.log(res);})
+// .then(THREE)
+// .then((res)=>{console.log(res);})
+// .then(TWO)
+// .then((res)=>{console.log(res);})
