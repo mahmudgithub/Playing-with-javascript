@@ -219,8 +219,9 @@
 // lol(false)
 // .then((res)=>{console.log(res);})
 // .catch((err)=>{console.log(err.message);})
-//create single promise only resolve
-const lol=new Promise((resolve)=>{
-    resolve('i am only resolve message')
-})
-lol.then((res)=>{console.log(res);})
+// //create single promise only resolve
+// const lol=new Promise((resolve)=>{
+//     resolve('i am only resolve message')
+// })
+// lol.then((res)=>{console.log(res);})
+ 
