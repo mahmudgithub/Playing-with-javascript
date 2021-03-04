@@ -210,12 +210,17 @@
 //     })
 // })
 
-// //map function
+// // //map function
 // const lol=['i am mahmud','i alive is rajshahi']
 // lol.map((item)=>{ console.log(item)});
 // console.log(lol.flatMap(oneStr => oneStr.split(' ')));
 // //create a promise
-// const lol=fn=>{return new Promise((resolve,reject)=>{if(fn){resolve('i am true value')}else(reject('i am false value'))})}
+// const lol=fn=>{return new Promise((resolve,reject)=>{if(fn){resolve('i am true value')}else(reject(new Error('i am false value')))})}
 // lol(false)
-// .then((data)=>{console.log(data);})
-// .catch((err)=>{console.log(err);})
+// .then((res)=>{console.log(res);})
+// .catch((err)=>{console.log(err.message);})
+//create single promise only resolve
+const lol=new Promise((resolve)=>{
+    resolve('i am only resolve message')
+})
+lol.then((res)=>{console.log(res);})
