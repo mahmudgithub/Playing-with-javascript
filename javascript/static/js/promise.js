@@ -337,3 +337,35 @@
 // })
 // Promise.all([one,two])
 // .then(([res1,res2])=>console.log(res1,res2));
+
+
+
+// //race function in promise ,race work with first running function
+// const one=new Promise((resolve,reject)=>{
+//     setTimeout(()=>{
+//         resolve('i am one')
+//     },5000)
+// })
+
+// const two=new Promise((resolve,reject)=>{
+//     setTimeout(()=>{
+//         resolve('i am two')
+//     },2000)
+// })
+
+
+// const three=new Promise((resolve,reject)=>{
+//     setTimeout(()=>{
+//         resolve('i am three')
+//     },2000)
+// })
+
+
+
+// const four=new Promise((resolve,reject)=>{
+//     setTimeout(()=>{
+//         resolve('i am four')
+//     },1000)
+// })
+// Promise.race([one,two,three,four])
+// .then((res)=>{console.log(res);})
