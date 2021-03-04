@@ -315,3 +315,25 @@
 // //and this time we will see a different message on the console.
 
 
+
+// //create a promise
+// const lol=fn=>{return new Promise((resolve,reject)=>{if(fn){resolve('i am true value')}else(reject(new Error('i am false value')))})}
+// lol(false)
+// .then((res)=>{console.log(res);})
+// .catch((err)=>{console.log(err.message);})
+// //create single promise only resolve
+// const lol=new Promise((resolve)=>{
+//     resolve('i am only resolve message')
+// })
+// lol.then((res)=>{console.log(res);})
+
+// //promise distructuring
+// const one=new Promise((resolve,reject)=>{
+//     resolve('i am one')
+// })
+
+// const two=new Promise((resolve,reject)=>{
+//     resolve('i am two')
+// })
+// Promise.all([one,two])
+// .then(([res1,res2])=>console.log(res1,res2));

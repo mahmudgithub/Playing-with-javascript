@@ -224,4 +224,14 @@
 //     resolve('i am only resolve message')
 // })
 // lol.then((res)=>{console.log(res);})
- 
+
+// //promise distructuring
+// const one=new Promise((resolve,reject)=>{
+//     resolve('i am one')
+// })
+
+// const two=new Promise((resolve,reject)=>{
+//     resolve('i am two')
+// })
+// Promise.all([one,two])
+// .then(([res1,res2])=>console.log(res1,res2));
