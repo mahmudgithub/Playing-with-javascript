@@ -135,3 +135,31 @@
 //    const result2 = await new Promise((resolve) => setTimeout(() => resolve('2')))
 // }
 // foo()
+
+// //use settimeout dfunction in chin promise
+// const ONE=()=> {return new Promise((resolve,reject)=>{setTimeout(()=>{resolve('i am function ONE')},5000)})};
+// const TWO=()=>{return new Promise((resolve,reject)=>{setTimeout(() => {resolve('i am function TWO')},5000);})};
+// const THREE=()=>{return new Promise((resolve,reject)=>{setTimeout(() => {resolve('i am function THREE')}, 5000);})};
+// const FOUR=()=>{return new Promise((resolve,reject)=>{setTimeout(() => {resolve('i am function FOUR')}, 1000);})};
+// // ONE()
+// // .then((res)=>{console.log(res);})
+// // .then(FOUR)
+// // .then((res)=>{console.log(res);})
+// // .then(THREE)
+// // .then((res)=>{console.log(res);})
+// // .then(TWO)
+// // .then((res)=>{console.log(res);})
+
+// //alternative above .then(()=>{}) function
+// //es5 style
+// async function lol1(){
+//     const x=await TWO();
+//     console.log(x);
+// }
+// lol1()
+// //es6 style
+// const lol2=async()=>{
+//     const a=await ONE();
+//     console.log(a);
+// }
+// lol2()
