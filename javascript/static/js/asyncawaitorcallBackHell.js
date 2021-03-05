@@ -163,3 +163,59 @@
 //     console.log(a);
 // }
 // lol2()
+
+// const one=()=>{return new Promise((resolve)=>{resolve('i am function one')})}
+// const two=()=>{return new Promise((resolve)=>{resolve('i am function two')})}
+// const three=()=>{return new Promise((resolve)=>{resolve('i am function three')})}
+// const four=()=>{return new Promise((resolve)=>{resolve('i am function four')})}
+// const five=()=>{return new Promise((resolve)=>{resolve('i am function five')})}
+
+// one().then((res)=>{console.log(res);})
+
+// one()
+// .then((res)=>{console.log(res);})
+// .then(two)
+// .then((x)=>{console.log(x);})
+// .then(three)
+// .then((y)=>{console.log(y);})
+// .then(four)
+// .then((z)=>{console.log(z);})
+// .then(five)
+// .then((o)=>{console.log(o);})
+
+// const all=async()=>{
+//     const x=await one()
+//     console.log(x);
+//     const y=await two()
+//     console.log(y);
+//     const z=await three()
+//     console.log(z);
+//     const s=await four()
+//     console.log(s);
+//     const p=await five()
+//     console.log(p);
+// }
+// all()
+
+
+// one(()=>{
+//     two(()=>{
+//         three(()=>{
+//             four(()=>{
+//                 five(()=>{})
+//             })
+//         })
+//     })
+// })
+
+
+const one=[1,2,3,4,5,6,7,8,9]
+// one.map((item,index,array)=>{
+//     console.log(item);
+//     console.log(index);
+//     console.log(array);
+// });
+// const lol=one.reduce((total,item,index,array)=>{
+//     return `total:${total+item}  item:${item} index:${index} array:${array}`
+// })
+// console.log(lol);
