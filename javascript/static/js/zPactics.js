@@ -453,3 +453,18 @@
 // })
 // console.log(six);
 
+//basic function pactics
+function one(){
+    console.log('hello world');
+}
+one()
+const ones=()=>{console.log('hello');}
+ones()
+const two=()=>{return 'hello mahmud'}
+console.log(two());
+const three=(x,y)=>{
+    return x+y
+}
+console.log(three(2,2));
+const four=(s,p=5)=>{return s+p}
+console.log(four(5));
