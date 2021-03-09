@@ -431,3 +431,14 @@ const two=arr.reduce((totall,item,index,array)=>{
     return totall+item
 })
 console.log(two);
+//reduce method with initial value
+const three=arr.reduce((totall,item)=>{
+    return  totall+item
+
+},10)
+console.log(three);
+//filter method on array
+const four =arr.filter((item,index)=>{
+    return item%2===0;
+})
+console.log(four);
