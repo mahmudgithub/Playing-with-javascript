@@ -499,3 +499,12 @@
 // one()
 
 //asychous function pactics
+//first example of syconus function
+const one=()=>{console.log('i am one');}
+const two=()=>{console.log('i am two');}
+const three=()=>{console.log('i am three');}
+const four=()=>{console.log('i am four');}
+one()
+two()
+three()
+four()
