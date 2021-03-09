@@ -402,5 +402,9 @@ console.log(all);
 const arr3=['x','y','z']
 const all2=arr3.concat(all)
 console.log(all2);
+//use sort method in array
 const six=all2.sort()
 console.log(six);
+//use reverse in array
+const seven=all2.reverse()
+console.log(seven);
