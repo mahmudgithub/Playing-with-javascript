@@ -384,3 +384,7 @@ console.log(arr);
 //unshift in array
 arr.unshift('coolfee')
 console.log(arr);
+//shift in array
+arr.shift()
+console.log(arr);
+
