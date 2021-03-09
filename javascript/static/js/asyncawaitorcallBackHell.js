@@ -209,7 +209,7 @@
 // })
 
 
-const one=[1,2,3,4,5,6,7,8,9]
+//const one=[1,2,3,4,5,6,7,8,9]
 // one.map((item,index,array)=>{
 //     console.log(item);
 //     console.log(index);
@@ -219,3 +219,8 @@ const one=[1,2,3,4,5,6,7,8,9]
 //     return `total:${total+item}  item:${item} index:${index} array:${array}`
 // })
 // console.log(lol);
+
+
+// const one=fn=>new Promise((resolve,reject)=>{setTimeout(()=>{if(fn){ resolve('i am getting value')}else{reject('i am false data')}},3000)})
+// one(false)
+// .then((res)=>{console.log(res);}).catch((err)=>{console.log(err);})

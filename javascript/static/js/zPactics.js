@@ -355,3 +355,11 @@
 //     console.log(a);
 // }
 // lol2()
+
+// //map function
+// lol=[1,2,3,4,5]
+// lol.map((item)=>{console.log(item);})
+// lol
+//create an array
+const arr=[1,2,3,4,5,5,6,7,8,9]
+console.log(arr);
