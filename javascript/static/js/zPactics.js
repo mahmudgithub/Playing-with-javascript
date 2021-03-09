@@ -378,3 +378,6 @@ for (let i=0; i<arr.length;i++){
 //pactics push in array
 const three=arr.push('hossain')
 console.log(arr);
+//pop in array
+arr.pop()
+console.log(arr);
