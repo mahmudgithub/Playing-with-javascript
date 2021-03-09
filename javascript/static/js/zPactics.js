@@ -409,5 +409,8 @@ console.log(six);
 const seven=all2.reverse()
 console.log(seven);
 //slice in array
-const eight=all2.slice(3)
+const eight=all2.slice(3,6)
 console.log(eight);
+//splice method in array
+const nine=all2.splice(3,6)
+console.log(nine);
