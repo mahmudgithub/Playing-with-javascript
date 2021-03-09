@@ -375,3 +375,6 @@ console.log(two);
 for (let i=0; i<arr.length;i++){
     console.log(i);
 }
+//pactics push in array
+const three=arr.push('hossain')
+console.log(arr);
