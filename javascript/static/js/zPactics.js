@@ -476,7 +476,11 @@
 // const three=(fn2=(x,y)=>{return x+y})(console.log(fn2(2,2)))
 
 
-//callback function
-function one(callback){ callback()}
-function two(){console.log('hello world');}
-one(one)
+// //callback function
+// function one(x,callback){ console.log(x);  callback(x)}
+// function two(y){return ('hello'+y);}
+// one('mahmud',one)
+// const one=(fn1=(x)=>{x()})
+// const two=fn2=()=>{console.log('hello');}
+// one(two)
+//return a function 
