@@ -381,3 +381,6 @@ console.log(arr);
 //pop in array
 arr.pop()
 console.log(arr);
+//unshift in array
+arr.unshift('coolfee')
+console.log(arr);
