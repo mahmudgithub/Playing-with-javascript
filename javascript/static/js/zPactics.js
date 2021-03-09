@@ -416,3 +416,6 @@
 // console.log(nine);
 
 //all array methods
+const arr=[1,2,3,4,5,6,7,8,9]
+//use map method in array
+const one=arr.map((item,index,array)=>{console.log(index,item,array);})
