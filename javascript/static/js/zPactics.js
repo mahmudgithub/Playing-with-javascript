@@ -519,3 +519,10 @@
 //         four(()=>{})
 //     }))
 // })
+
+
+//pactics promis
+//create a promise and handel its
+const one=fn1=>{return new Promise((resolve,reject)=>{if (fn1){resolve('i am gettind value')}else{reject('i am false value')}})}
+one(true).then((res)=>{console.log(res);})
+.catch((err)=>{console.log(err);})
