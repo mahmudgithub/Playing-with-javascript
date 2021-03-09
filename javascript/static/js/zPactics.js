@@ -399,3 +399,8 @@ console.log(five);
 //concate method in array
 const all=arr.concat(arr2)
 console.log(all);
+const arr3=['x','y','z']
+const all2=arr3.concat(all)
+console.log(all2);
+const six=all2.sort()
+console.log(six);
