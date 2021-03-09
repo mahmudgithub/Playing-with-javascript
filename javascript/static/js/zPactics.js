@@ -489,8 +489,6 @@
 // }
 // one()()
 
-
-
 // //pactics setTimeout function
 // const one=()=>{
 //     setTimeout(()=>{
@@ -499,3 +497,5 @@
 //     console.log('i am normal function ');
 // }
 // one()
+
+//asychous function pactics
