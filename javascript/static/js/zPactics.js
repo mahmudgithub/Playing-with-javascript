@@ -483,4 +483,8 @@
 // const one=(fn1=(x)=>{x()})
 // const two=fn2=()=>{console.log('hello');}
 // one(two)
-//return a function 
+// //return a function 
+// const one=()=>{
+//     return two=()=>{console.log('i am innser function');}
+// }
+// one()()
