@@ -415,40 +415,41 @@
 // const nine=all2.splice(3,6)
 // console.log(nine);
 
-//all array methods
-const arr=[1,2,3,4,5,6,7,8,9]
-//use map method in array
-const one=arr.map((item,index,array)=>{console.log(index,item,array);})
-//use for on array
-for(let i=0;i<arr.length;i++){console.log(i);}
-//use forEatch method on array
-arr.forEach(item => {
-console.log(item);    
-}); 
-//reduce method on array
-const two=arr.reduce((totall,item,index,array)=>{
-    console.log('.......................');
-    return totall+item
-})
-console.log(two);
-//reduce method with initial value
-const three=arr.reduce((totall,item)=>{
-    return  totall+item
+// //all array methods
+// const arr=[1,2,3,4,5,6,7,8,9]
+// //use map method in array
+// const one=arr.map((item,index,array)=>{console.log(index,item,array);})
+// //use for on array
+// for(let i=0;i<arr.length;i++){console.log(i);}
+// //use forEatch method on array
+// arr.forEach(item => {
+// console.log(item);    
+// }); 
+// //reduce method on array
+// const two=arr.reduce((totall,item,index,array)=>{
+//     console.log('.......................');
+//     return totall+item
+// })
+// console.log(two);
+// //reduce method with initial value
+// const three=arr.reduce((totall,item)=>{
+//     return  totall+item
 
-},10)
-console.log(three);
-//filter method on array
-const four =arr.filter((item,index)=>{
-    return item%2===0;
-})
-console.log(four);
-//every method in array 
-const five=arr.every((item,index)=>{
-    return item>2;
-})
-console.log(five);
-//use find method on array 
-const six=arr.find((item,index)=>{
-    return item>8
-})
-console.log(six);
+// },10)
+// console.log(three);
+// //filter method on array
+// const four =arr.filter((item,index)=>{
+//     return item%2===0;
+// })
+// console.log(four);
+// //every method in array 
+// const five=arr.every((item,index)=>{
+//     return item>2;
+// })
+// console.log(five);
+// //use find method on array 
+// const six=arr.find((item,index)=>{
+//     return item>8
+// })
+// console.log(six);
+
