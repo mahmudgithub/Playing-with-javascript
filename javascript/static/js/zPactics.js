@@ -447,3 +447,8 @@ const five=arr.every((item,index)=>{
     return item>2;
 })
 console.log(five);
+//use find method on array 
+const six=arr.find((item,index)=>{
+    return item>8
+})
+console.log(six);
