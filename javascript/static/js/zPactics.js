@@ -360,57 +360,59 @@
 // lol=[1,2,3,4,5]
 // lol.map((item)=>{console.log(item);})
 // lol
-//create an array
-const arr=[1,2,3,4,5,5,6,7,8,9]
-console.log(arr);
-//access array elments by index number
-console.log(arr[2]);
-//add new elements to array by index
-const one=arr[1]='mahmud'
-console.log(arr);
-//length propetics of array
-const two=(arr.length)
-console.log(two);
-//use length propertics in forloop
-for (let i=0; i<arr.length;i++){
-    console.log(i);
-}
-//pactics push in array
-const three=arr.push('hossain')
-console.log(arr);
-//pop in array
-arr.pop()
-console.log(arr);
-//unshift in array
-arr.unshift('coolfee')
-console.log(arr);
-//shift in array
-arr.shift()
-console.log(arr);
-//indexOf in array
-console.log(arr.indexOf('mahmud'));
-//join in array
-const arr2=['a','b','c','d']
-const four=arr.join(arr2)
-console.log(four);
-//toString method in array
-const five=arr.toString(arr2);
-console.log(five);
-//concate method in array
-const all=arr.concat(arr2)
-console.log(all);
-const arr3=['x','y','z']
-const all2=arr3.concat(all)
-console.log(all2);
-//use sort method in array
-const six=all2.sort()
-console.log(six);
-//use reverse in array
-const seven=all2.reverse()
-console.log(seven);
-//slice in array
-const eight=all2.slice(3,6)
-console.log(eight);
-//splice method in array
-const nine=all2.splice(3,6)
-console.log(nine);
+// //create an array
+// const arr=[1,2,3,4,5,5,6,7,8,9]
+// console.log(arr);
+// //access array elments by index number
+// console.log(arr[2]);
+// //add new elements to array by index
+// const one=arr[1]='mahmud'
+// console.log(arr);
+// //length propetics of array
+// const two=(arr.length)
+// console.log(two);
+// //use length propertics in forloop
+// for (let i=0; i<arr.length;i++){
+//     console.log(i);
+// }
+// //pactics push in array
+// const three=arr.push('hossain')
+// console.log(arr);
+// //pop in array
+// arr.pop()
+// console.log(arr);
+// //unshift in array
+// arr.unshift('coolfee')
+// console.log(arr);
+// //shift in array
+// arr.shift()
+// console.log(arr);
+// //indexOf in array
+// console.log(arr.indexOf('mahmud'));
+// //join in array
+// const arr2=['a','b','c','d']
+// const four=arr.join(arr2)
+// console.log(four);
+// //toString method in array
+// const five=arr.toString(arr2);
+// console.log(five);
+// //concate method in array
+// const all=arr.concat(arr2)
+// console.log(all);
+// const arr3=['x','y','z']
+// const all2=arr3.concat(all)
+// console.log(all2);
+// //use sort method in array
+// const six=all2.sort()
+// console.log(six);
+// //use reverse in array
+// const seven=all2.reverse()
+// console.log(seven);
+// //slice in array
+// const eight=all2.slice(3,6)
+// console.log(eight);
+// //splice method in array
+// const nine=all2.splice(3,6)
+// console.log(nine);
+
+//all array methods
