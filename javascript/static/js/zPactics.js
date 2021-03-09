@@ -425,3 +425,9 @@ for(let i=0;i<arr.length;i++){console.log(i);}
 arr.forEach(item => {
 console.log(item);    
 }); 
+//reduce method on array
+const two=arr.reduce((totall,item,index,array)=>{
+    console.log('.......................');
+    return totall+item
+})
+console.log(two);
