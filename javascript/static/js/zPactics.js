@@ -389,3 +389,13 @@ arr.shift()
 console.log(arr);
 //indexOf in array
 console.log(arr.indexOf('mahmud'));
+//join in array
+const arr2=['a','b','c','d']
+const four=arr.join(arr2)
+console.log(four);
+//toString method in array
+const five=arr.toString(arr2);
+console.log(five);
+//concate method in array
+const all=arr.concat(arr2)
+console.log(all);
