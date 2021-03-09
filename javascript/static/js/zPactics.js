@@ -500,11 +500,22 @@
 
 //asychous function pactics
 //first example of syconus function
-const one=()=>{console.log('i am one');}
-const two=()=>{console.log('i am two');}
-const three=()=>{console.log('i am three');}
-const four=()=>{console.log('i am four');}
-one()
-two()
-three()
-four()
+// const one=(x)=>{console.log('i am one');x()}
+// const two=(x)=>{console.log('i am two');x()}
+// const three=(x)=>{console.log('i am three');x()}
+// const four=(x)=>{console.log('i am four');x()}
+// one()
+// two()
+// three()
+// four()
+//by using setTimeOut function above function can an asychonud behave
+// setTimeout(one,6000)
+// setTimeout(three,3000)
+// setTimeout(two,1000)
+// //by using callback function above function can behave as asychonus
+// one(()=>{
+//     three(()=>
+//     two(()=>{
+//         four(()=>{})
+//     }))
+// })
