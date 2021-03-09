@@ -527,11 +527,12 @@
 // one(true).then((res)=>{console.log(res);})
 // .catch((err)=>{console.log(err);})
 
-//usinng fetch ,handel a data
-const one=fetch('https://jsonplaceholder.typicode.com/users')
-one.then((data)=>{
-console.log(data);
-})
-.catch((err)=>{
-    console.log(err.message);
-})
+// //usinng fetch ,handel a data
+// const one=fetch('https://jsonplaceholder.typicode.com/users')
+// one.then((data)=>{
+// console.log(data);
+// })
+// .catch((err)=>{
+//     console.log(err.message);
+// })
+
