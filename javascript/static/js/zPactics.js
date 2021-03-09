@@ -488,3 +488,14 @@
 //     return two=()=>{console.log('i am innser function');}
 // }
 // one()()
+
+
+
+//pactics setTimeout function
+const one=()=>{
+    setTimeout(()=>{
+        console.log('i am setTimeout function ');
+    },5000)
+    console.log('i am normal function ');
+}
+one()
