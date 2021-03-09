@@ -363,3 +363,15 @@
 //create an array
 const arr=[1,2,3,4,5,5,6,7,8,9]
 console.log(arr);
+//access array elments by index number
+console.log(arr[2]);
+//add new elements to array by index
+const one=arr[1]='maghmud'
+console.log(arr);
+//length propetics of array
+const two=(arr.length)
+console.log(two);
+//use length propertics in forloop
+for (let i=0; i<arr.length;i++){
+    console.log(i);
+}
