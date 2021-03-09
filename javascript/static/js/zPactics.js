@@ -491,11 +491,11 @@
 
 
 
-//pactics setTimeout function
-const one=()=>{
-    setTimeout(()=>{
-        console.log('i am setTimeout function ');
-    },5000)
-    console.log('i am normal function ');
-}
-one()
+// //pactics setTimeout function
+// const one=()=>{
+//     setTimeout(()=>{
+//         console.log('i am setTimeout function ');
+//     },5000)
+//     console.log('i am normal function ');
+// }
+// one()
