@@ -366,7 +366,7 @@ console.log(arr);
 //access array elments by index number
 console.log(arr[2]);
 //add new elements to array by index
-const one=arr[1]='maghmud'
+const one=arr[1]='mahmud'
 console.log(arr);
 //length propetics of array
 const two=(arr.length)
@@ -387,4 +387,5 @@ console.log(arr);
 //shift in array
 arr.shift()
 console.log(arr);
-
+//indexOf in array
+console.log(arr.indexOf('mahmud'));
