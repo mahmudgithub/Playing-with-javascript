@@ -442,3 +442,8 @@ const four =arr.filter((item,index)=>{
     return item%2===0;
 })
 console.log(four);
+//every method in array 
+const five=arr.every((item,index)=>{
+    return item>2;
+})
+console.log(five);
