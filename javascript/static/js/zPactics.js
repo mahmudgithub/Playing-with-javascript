@@ -474,3 +474,9 @@
 // const one=(()=>{console.log('hello mahmud');})()
 // const two=(fn=()=>{console.log('i am hossain');})()
 // const three=(fn2=(x,y)=>{return x+y})(console.log(fn2(2,2)))
+
+
+//callback function
+function one(callback){ callback()}
+function two(){console.log('hello world');}
+one(one)
