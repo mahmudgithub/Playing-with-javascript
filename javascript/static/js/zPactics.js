@@ -408,3 +408,6 @@ console.log(six);
 //use reverse in array
 const seven=all2.reverse()
 console.log(seven);
+//slice in array
+const eight=all2.slice(3)
+console.log(eight);
