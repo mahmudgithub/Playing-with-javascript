@@ -224,3 +224,35 @@
 // const one=fn=>new Promise((resolve,reject)=>{setTimeout(()=>{if(fn){ resolve('i am getting value')}else{reject('i am false data')}},3000)})
 // one(false)
 // .then((res)=>{console.log(res);}).catch((err)=>{console.log(err);})
+
+// //use usestate useEffect,map method, asychonu function and more in one example
+// import React,{useState,useEffect} from 'react'
+// import Axios from 'axios'
+
+// const Allpactics = () => {
+//     const [info, setinfo] = useState([])
+//     useEffect(()=>{
+//         setTimeout(() => {
+//             const lol=async()=>{
+                
+//                await Axios({
+//                    method:'get',
+//                    url:'https://jsonplaceholder.typicode.com/photos'
+//                }).then((res)=>{console.log(res.data);setinfo(res.data)})
+//                .catch((err)=>{setinfo(err.message)})
+//             }
+//             lol()
+//         }, 5000);
+//     })
+//     return (
+//         <div>
+//             <ul>
+//                 {
+//                     info.map((item)=>{return <li>{item.title}</li>})
+//                 }
+//             </ul>
+//         </div>
+//     )
+// }
+
+// export default Allpactics
