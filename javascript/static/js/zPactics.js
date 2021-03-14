@@ -756,3 +756,9 @@
 //         })
 //     })
 // })
+
+
+// javascript callback function 
+fn=(x)=>{x()}
+fn2=()=>{console.log('i am callback function');}
+fn(fn2)
