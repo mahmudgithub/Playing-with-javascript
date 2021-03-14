@@ -621,6 +621,10 @@
 // one(true)
 // .then((res)=>{console.log(res);})
 // .catch((err)=>{console.log(err);})
-// handel remote data 
-const two=fn=>{return new Promise((resolve,reject)=>{if(fn){resolve('i am pure data')}else{reject('i am error data')}})}
-two(false).then((res)=>{console.log(res);}).catch((err)=>{console.log(err);})
+// // handel remote data 
+// const two=fn=>{return new Promise((resolve,reject)=>{if(fn){resolve('i am pure data')}else{reject('i am error data')}})}
+// two(false).then((res)=>{console.log(res);}).catch((err)=>{console.log(err);})
+// // fetch data 
+// const four=fetch('https://jsonplaceholder.typicode.com/users')
+// four.then((data)=>{console.log(data);}).catch((err)=>{console.log(err.message);})
+// four.then((data)=>{return data.json();}).then((res)=>{console.log(res);})
