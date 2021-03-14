@@ -550,5 +550,41 @@
 // console.log(arr[0]='how');
 // console.log(arr);
 // // some basic method of array 
-// length method 
+// // length method 
+// const arr=[1,2,3,4,5,'mahmud']
+// console.log(arr.length);
+// //for loop on arry 
+// for(let i=0; i<arr.length; i++)
+// {
+//     console.log(i);
+//     if (i==3)
+//     break;
+//     console.log(i);
+// }
 
+// // push method in arry 
+// arr.push('all');
+// console.log(arr);
+// // pop method in array 
+// arr.pop();
+// console.log(arr);
+// // unshift method in array 
+// arr.unshift('cool');
+// console.log(arr);
+// // shift method in array 
+// arr.shift();
+// console.log(arr);
+// // index method on array 
+// console.log(arr.indexOf('mahmud'));
+// // concrate method on arry 
+// arr2=['apple','banana','water melon']
+// lol=arr.concat(arr2)
+// console.log(lol);
+// // sort method on arry 
+// console.log((arr.sort()));
+// // reverse method on array 
+// console.log(arr.reverse());
+// // lastIndexof method on array 
+// console.log(arr.lastIndexOf('mahmud'));
+// // splice method on arry 
+// console.log(arr.splice(0,2));
