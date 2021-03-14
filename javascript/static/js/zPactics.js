@@ -628,3 +628,14 @@
 // const four=fetch('https://jsonplaceholder.typicode.com/users')
 // four.then((data)=>{console.log(data);}).catch((err)=>{console.log(err.message);})
 // four.then((data)=>{return data.json();}).then((res)=>{console.log(res);})
+
+// javascript functional constructor 
+function lol(names,age,city){
+    this.names=names;
+    this.age=age;
+    this.city=city;
+}
+const one=new lol('mahmud','33','raj')
+console.log(one);
+const two=new lol('hossain',26,'dhaka')
+console.log(two);
