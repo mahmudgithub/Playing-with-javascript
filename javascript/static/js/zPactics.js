@@ -538,3 +538,17 @@
 
 // today pactics 14/3/2021
 // array basic 
+// // make and access an arry element 
+// let arr=['mahmud','hossain']
+// console.log(arr);
+// // access by index number 
+// console.log(arr[1]);
+// // add new array Element by index number 
+// lol=arr[0]='nannu'
+// console.log(lol);
+// // change array elememt by index number 
+// console.log(arr[0]='how');
+// console.log(arr);
+// // some basic method of array 
+// length method 
+
