@@ -611,13 +611,16 @@
 // console.log(e);
 
 
-// javascript promise 
-// create a promise 
-let first=fn=>{return new Promise((resolve,reject)=>{if (fn){resolve('i am getting valie')}else{reject('iam false')}})}
-first(false)
-.then((res)=>{console.log(res);}).catch((err)=>{console.log(err);})
+// // javascript promise 
+// // create a promise 
+// let first=fn=>{return new Promise((resolve,reject)=>{if (fn){resolve('i am getting valie')}else{reject('iam false')}})}
+// first(false)
+// .then((res)=>{console.log(res);}).catch((err)=>{console.log(err);})
 
-const one=fn2=>{return new Promise((resolve,reject)=>{ if(fn2){resolve('i am getting value')}else{reject('i am an error')}})}
-one(true)
-.then((res)=>{console.log(res);})
-.catch((err)=>{console.log(err);})
+// const one=fn2=>{return new Promise((resolve,reject)=>{ if(fn2){resolve('i am getting value')}else{reject('i am an error')}})}
+// one(true)
+// .then((res)=>{console.log(res);})
+// .catch((err)=>{console.log(err);})
+// handel remote data 
+const two=fn=>{return new Promise((resolve,reject)=>{if(fn){resolve('i am pure data')}else{reject('i am error data')}})}
+two(false).then((res)=>{console.log(res);}).catch((err)=>{console.log(err);})
