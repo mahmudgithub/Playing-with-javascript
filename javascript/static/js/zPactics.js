@@ -696,21 +696,21 @@
 //                 // console.log(this.arr);
 // }}}}
 // one.two.three.fn.call(one.two.three)
-// bind method of this object 
-const obj={
-    names:'mahmud',
-    city:'raj',
-    obj2:{
-        names:'hossain',
-        age:26,
-        obj3:{
-            names:'nannu',
-            fn:function() {
-                console.log(this.names,roll,board);
+// // bind method of this object 
+// const obj={
+//     names:'mahmud',
+//     city:'raj',
+//     obj2:{
+//         names:'hossain',
+//         age:26,
+//         obj3:{
+//             names:'nannu',
+//             fn:function(roll,board) {
+//                 console.log(this.names,roll,board);
                 
-            }
-        }
-    }
-}
-var lol=obj.obj2.obj3.fn.bind(obj)
-lol('123','dhaks')
+//             }
+//         }
+//     }
+// }
+// var lol=obj.obj2.obj3.fn.bind(obj)
+// lol('123','dhaks')
