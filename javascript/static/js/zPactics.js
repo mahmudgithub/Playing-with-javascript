@@ -714,3 +714,8 @@
 // }
 // var lol=obj.obj2.obj3.fn.bind(obj)
 // lol('123','dhaks')
+// define a function in es5 style 
+// function fn(){
+//     console.log('hello');
+// }
+// fn()
