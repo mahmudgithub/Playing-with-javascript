@@ -759,6 +759,10 @@
 
 
 // javascript callback function 
-fn=(x)=>{x()}
-fn2=()=>{console.log('i am callback function');}
-fn(fn2)
+// fn=(x)=>{x()}
+// fn2=()=>{console.log('i am callback function');}
+// fn(fn2)
+// // callback with parameter 
+// fn1=(s,x)=>{x(s)}
+// fn2=(y)=>{console.log('my name is :'+y);}
+// fn1('mahmud',fn2)
