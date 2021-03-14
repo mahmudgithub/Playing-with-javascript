@@ -742,3 +742,17 @@
 
 // fn=()=>{console.log('hello eee');}
 // setTimeout(fn(),5000)
+
+// // javascript synchonus funcrton 
+// fn1=(a,x)=>{console.log(a);x(a)}
+// fn2=(b,x)=>{console.log(b);x(b)}
+// fn3=(c,x)=>{console.log(c);x(c)}
+// fn4=(d,x)=>{console.log(d);x(d)}
+
+// fn1(1,()=>{
+//     fn2(2,()=>{
+//         fn3(3,()=>{
+//             fn4(4,()=>{})
+//         })
+//     })
+// })
