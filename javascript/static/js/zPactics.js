@@ -719,3 +719,17 @@
 //     console.log('hello');
 // }
 // fn()
+// // define a function of es6 style 
+// lol=()=>{
+//     console.log('helldo');
+// }
+// lol()
+// define invoc function 
+// (lol=()=>{console.log('i am invoc function');})()
+// // invoc function with parameter 
+// var d=(function fn(x,y) {
+
+//     console.log(x+y);
+    
+// })(2,2)
+// const lo=((x,y)=>{console.log(x+y);})(2,2)
