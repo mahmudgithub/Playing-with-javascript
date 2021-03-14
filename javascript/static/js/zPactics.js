@@ -654,3 +654,18 @@
 // const one=new lol(26,'raj')
 // console.log(one.city);
 
+// pactics this key word in function 
+// this use as global 
+// const one=fn=(age)=>{return this.age=age }
+// fn(25)
+// console.log(age);
+// this kew use as global object 
+// fn=(names)=>{return  this.names=names}
+// console.log(fn('mahmd'));
+// //this use as function constructor
+// function fn(names,city){
+//     this.names=names;
+//     this.city=city
+// }
+// const one=new fn('mahmud','raj')
+// console.log(one.names);
