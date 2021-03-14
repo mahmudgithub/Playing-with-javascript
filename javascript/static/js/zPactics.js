@@ -669,3 +669,15 @@
 // }
 // const one=new fn('mahmud','raj')
 // console.log(one.names);
+
+//this use as object
+const obj={
+    names:'mahmud',
+    obj2:{
+        names:'hossain',
+       fn:function() {
+        console.log(this.names);           
+       }
+    }
+}
+obj.obj2.fn()
