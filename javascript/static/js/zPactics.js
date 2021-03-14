@@ -588,3 +588,24 @@
 // console.log(arr.lastIndexOf('mahmud'));
 // // splice method on arry 
 // console.log(arr.splice(0,2));
+// es6 all arry methods pactics 
+// // map method 
+// let arr=[1,2,3,4,5,6]
+// lol=arr.map((item,index)=>{return index+item})
+// console.log(lol);
+// // foreatch method 
+// let a=arr.forEach(element => {
+//     console.log(element);
+// });
+// // reduce method 
+// let b=arr.reduce((total,item)=>{return total+item})
+// console.log(b);
+// // reduce with initial value 
+// let c=arr.reduce((total,item)=>{return total+item},10)
+// console.log(c);
+// // every method 
+// let d=arr.every((item)=>{if (item<5){return item}})
+// console.log(d);
+// // filter method 
+// let e=arr.filter((item)=>{if(item>4){return item}})
+// console.log(e);
