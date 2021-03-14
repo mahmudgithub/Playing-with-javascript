@@ -670,14 +670,47 @@
 // const one=new fn('mahmud','raj')
 // console.log(one.names);
 
-//this use as object
+// //this use as object
+// const obj={
+//     names:'mahmud',
+//     obj2:{
+//         names:'hossain',
+//        fn:function() {
+//         console.log(this.names);           
+//        }
+//     }
+// }
+// obj.obj2.fn()
+// call method 
+// const one={
+//     names:'mahmud',
+//     city:'rajshahi',
+//     two:{
+//         names:'hossain',
+//         age:26,
+//         three:{
+//             arr:[1,2,3,4,5],
+//             names:'cool',
+//             fn:function(){
+//                 console.log(this.names);
+//                 // console.log(this.arr);
+// }}}}
+// one.two.three.fn.call(one.two.three)
+// bind method of this object 
 const obj={
     names:'mahmud',
+    city:'raj',
     obj2:{
         names:'hossain',
-       fn:function() {
-        console.log(this.names);           
-       }
+        age:26,
+        obj3:{
+            names:'nannu',
+            fn:function() {
+                console.log(this.names,roll,board);
+                
+            }
+        }
     }
 }
-obj.obj2.fn()
+var lol=obj.obj2.obj3.fn.bind(obj)
+lol('123','dhaks')
