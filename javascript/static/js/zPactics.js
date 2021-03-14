@@ -733,3 +733,12 @@
     
 // })(2,2)
 // const lo=((x,y)=>{console.log(x+y);})(2,2)
+
+// // settimeout function 
+// setTimeout(() => {
+//     console.log('i am settime out fn');
+    
+// }, 2000);
+
+// fn=()=>{console.log('hello eee');}
+// setTimeout(fn(),5000)
