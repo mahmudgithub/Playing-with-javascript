@@ -536,3 +536,5 @@
 //     console.log(err.message);
 // })
 
+// today pactics 14/3/2021
+// array basic 
