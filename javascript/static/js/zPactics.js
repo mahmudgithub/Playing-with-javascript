@@ -766,3 +766,9 @@
 // fn1=(s,x)=>{x(s)}
 // fn2=(y)=>{console.log('my name is :'+y);}
 // fn1('mahmud',fn2)
+
+const number=['mahmd','hossain','nannu']
+const lol=number.map((item,index)=>{
+    return item;
+})
+console.log(lol);
