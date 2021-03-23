@@ -813,15 +813,19 @@
 // five
 
 let arr=[1,2,3,4,5,6,7,8,9,'mahmud','hossain']
-console.log(arr[5]);
+// console.log(arr[5]);
 
-// change specific index Number
-arr[2]=10
+// // change specific index Number
+// arr[2]=10
+// console.log(arr);
+
+// // length of array elements 
+// console.log(arr.length);
+// // for loop of array elements 
+// for(i=0;i<arr.length;i++){
+//     console.log(i);
+// }
+
+// using push method add a element to array last
+arr.push('lamyaa')
 console.log(arr);
-
-// length of array elements 
-console.log(arr.length);
-// for loop of array elements 
-for(i=0;i<arr.length;i++){
-    console.log(i);
-}
