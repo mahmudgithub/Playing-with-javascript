@@ -845,5 +845,10 @@ let arr=[1,2,3,4,5,6,7,8,9,'mahmud','hossain']
 // // using indexOf method find any array elemts index number 
 // console.log(arr.indexOf('mahmud'));
 
-// using toString method ,convert arry elements to string 
-console.log(arr.toString(''));
+// // using toString method ,convert arry elements to string 
+// console.log(arr.toString(''));
+
+// using concrate method add multiple array 
+arr2=['colllllllllllllllllllllllllllllllll']
+const lol=arr.concat(arr2)
+console.log(lol);
