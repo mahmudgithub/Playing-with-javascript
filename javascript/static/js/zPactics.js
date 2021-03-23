@@ -829,3 +829,6 @@ let arr=[1,2,3,4,5,6,7,8,9,'mahmud','hossain']
 // using push method add a element to array last
 arr.push('lamyaa')
 console.log(arr);
+// using array pop method remove a element from last 
+arr.pop()
+console.log(arr);
