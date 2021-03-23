@@ -842,5 +842,8 @@ let arr=[1,2,3,4,5,6,7,8,9,'mahmud','hossain']
 // console.log(arr);
 
 
-// using indexOf method find any array elemts index number 
-console.log(arr.indexOf('mahmud'));
+// // using indexOf method find any array elemts index number 
+// console.log(arr.indexOf('mahmud'));
+
+// using toString method ,convert arry elements to string 
+console.log(arr.toString(''));
