@@ -812,8 +812,8 @@
 // })
 // five
 
-let arr=[1,2,3,4,5,6,7,8,9,'mahmud','hossain']
-// console.log(arr[5]);
+// let arr=[1,2,3,4,5,6,7,8,9,'mahmud','hossain']
+// // console.log(arr[5]);
 
 // // change specific index Number
 // arr[2]=10
@@ -869,13 +869,32 @@ let arr=[1,2,3,4,5,6,7,8,9,'mahmud','hossain']
 // .then((res)=>{console.log(res);}).catch((err)=>{console.log(err);})
 
 
-// fetch data 
-const lol=fetch('https://restcountries.eu/rest/v2/all')
-lol
-.then((res)=>{return res.json()})
-.then((data)=>{console.log(data);})
+// // fetch data 
+// const lol=fetch('https://restcountries.eu/rest/v2/all')
+// lol
+// .then((res)=>{return res.json()})
+// .then((data)=>{console.log(data);})
 
 // const lol=fetch('https://restcountries.eu/rest/v2/all')
 // lol
-// .then(response => response.json())
-// .then(data => console.log(data));
+// .then(res => res.json())
+// // .then(data => data.map((item)=>{
+// //     console.log(item.name);
+// // }));
+
+// .then(data => data.filter((item)=>{
+//     if(item.name==='Bangladesh'){
+//         console.log(item);
+//     }
+    
+// }));
+
+
+// pactics function constructor 
+const fn=function  (a,b) {
+    console.log(a+b);
+}
+const one=new fn(1,2)
+one
+const two=new fn(5,5)
+two
