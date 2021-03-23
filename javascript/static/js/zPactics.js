@@ -790,15 +790,24 @@
 const nm=[1,2,3,4,5,6,7,8,9,'mahmud','hossain']
 
 
-const one=nm.filter((item)=>{return item%2===0;})
-console.log(one);
+// const one=nm.filter((item)=>{return item%2===0;})
+// console.log(one);
 
-const two=nm.slice(0,3)
-console.log(two);
+// const two=nm.slice(0,3)
+// console.log(two);
 
-const three=nm.reduce((total,item)=>{ return total+item;})
-console.log(three);
+// const three=nm.reduce((total,item)=>{ return total+item;})
+// console.log(three);
 
-const four=nm.reduce((total,item)=>{return total+item},10)
-console.log(four);
+// const four=nm.reduce((total,item)=>{return total+item},10)
+// console.log(four);
 
+// const five=nm.find((item)=>{
+//     if(item==='mahmud'){
+//         console.log(true);
+//     }
+//     else{
+//         console.log(false);
+//     }
+// })
+// five
