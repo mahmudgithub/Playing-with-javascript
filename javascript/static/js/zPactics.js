@@ -787,7 +787,7 @@
 // pop
 
 // filter mrethod
-const nm=[1,2,3,4,5,6,7,8,9,'mahmud','hossain']
+// const nm=[1,2,3,4,5,6,7,8,9,'mahmud','hossain']
 
 
 // const one=nm.filter((item)=>{return item%2===0;})
@@ -811,3 +811,6 @@ const nm=[1,2,3,4,5,6,7,8,9,'mahmud','hossain']
 //     }
 // })
 // five
+
+let arr=[1,2,3,4,5,6,7,8,9,'mahmud','hossain']
+console.log(arr[5]);
