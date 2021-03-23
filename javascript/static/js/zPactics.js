@@ -833,6 +833,10 @@ let arr=[1,2,3,4,5,6,7,8,9,'mahmud','hossain']
 // arr.pop()
 // console.log(arr);
 
-// using unshift method add a element to arry first 
-arr.unshift('nowsin')
-console.log(arr); 
+// // using unshift method add a element to arry first 
+// arr.unshift('nowsin')
+// console.log(arr); 
+
+// using shift method remove a elemets from first 
+arr.shift()
+console.log(arr);
