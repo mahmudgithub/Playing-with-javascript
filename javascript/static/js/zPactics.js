@@ -853,6 +853,10 @@ let arr=[1,2,3,4,5,6,7,8,9,'mahmud','hossain']
 // const lol=arr.concat(arr2)
 // console.log(lol);
 
-// using sort method arrange array elements to assending format 
-arr.sort()
+// // using sort method arrange array elements to assending format 
+// arr.sort()
+// console.log(arr);
+
+// using reverse method to arrange all array elements to decending 
+arr.reverse()
 console.log(arr);
