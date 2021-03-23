@@ -785,3 +785,12 @@
 //     console.log((item));
 // })
 // pop
+
+// filter mrethod
+const nm=[1,2,3,4,5,6,7,8,9]
+const one=nm.filter((item)=>{
+return item%2===0;
+})
+console.log(one);
+const two=nm.slice(0,3)
+console.log(two);
