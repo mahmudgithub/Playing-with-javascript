@@ -891,10 +891,23 @@
 
 
 // pactics function constructor 
-const fn=function  (a,b) {
-    console.log(a+b);
+// const fn=function  (a,b) {
+//     console.log(a+b);
+// }
+// const one=new fn(1,2)
+// one
+// const two=new fn(5,5)
+// two
+
+const person=function (name,age,roll){
+    this.name=name,
+    this.age=age,
+    this.roll=roll
+    this.fn=function () {
+ 
+        console.log(this.name);
+    }
+
 }
-const one=new fn(1,2)
-one
-const two=new fn(5,5)
-two
+const lol=new person('mahmud',26,'rajshahi')
+lol.fn()
