@@ -862,8 +862,20 @@ let arr=[1,2,3,4,5,6,7,8,9,'mahmud','hossain']
 // console.log(arr);
 
 
-// pactics of promise 
-// create a promise 
-const lol=fn=>{return new Promise((resolve,reject)=>{if (fn){resolve('i am getting data')}else{reject(' i am error')}})}
-lol(false)
-.then((res)=>{console.log(res);}).catch((err)=>{console.log(err);})
+// // pactics of promise 
+// // create a promise 
+// const lol=fn=>{return new Promise((resolve,reject)=>{if (fn){resolve('i am getting data')}else{reject(' i am error')}})}
+// lol(false)
+// .then((res)=>{console.log(res);}).catch((err)=>{console.log(err);})
+
+
+// fetch data 
+const lol=fetch('https://restcountries.eu/rest/v2/all')
+lol
+.then((res)=>{return res.json()})
+.then((data)=>{console.log(data);})
+
+// const lol=fetch('https://restcountries.eu/rest/v2/all')
+// lol
+// .then(response => response.json())
+// .then(data => console.log(data));
