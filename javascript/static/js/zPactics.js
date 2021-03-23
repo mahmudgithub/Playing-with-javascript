@@ -838,5 +838,9 @@ let arr=[1,2,3,4,5,6,7,8,9,'mahmud','hossain']
 // console.log(arr); 
 
 // using shift method remove a elemets from first 
-arr.shift()
-console.log(arr);
+// arr.shift()
+// console.log(arr);
+
+
+// using indexOf method find any array elemts index number 
+console.log(arr.indexOf('mahmud'));
