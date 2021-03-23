@@ -773,4 +773,15 @@
 // })
 // console.log(lol);
 
+// map method
+// const lol=[1,2,3,4,5,6,7]
+// const one=lol.map((item)=>{
+//     console.log(item);
+// })
+// one
 
+// const two =['mahmud','hossain','lamyaa','niva']
+// const pop=two.forEach((item)=>{
+//     console.log((item));
+// })
+// pop
