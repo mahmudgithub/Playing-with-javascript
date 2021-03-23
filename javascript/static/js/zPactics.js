@@ -821,3 +821,7 @@ console.log(arr);
 
 // length of array elements 
 console.log(arr.length);
+// for loop of array elements 
+for(i=0;i<arr.length;i++){
+    console.log(i);
+}
