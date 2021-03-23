@@ -848,7 +848,11 @@ let arr=[1,2,3,4,5,6,7,8,9,'mahmud','hossain']
 // // using toString method ,convert arry elements to string 
 // console.log(arr.toString(''));
 
-// using concrate method add multiple array 
-arr2=['colllllllllllllllllllllllllllllllll']
-const lol=arr.concat(arr2)
-console.log(lol);
+// // using concrate method add multiple array 
+// arr2=['colllllllllllllllllllllllllllllllll']
+// const lol=arr.concat(arr2)
+// console.log(lol);
+
+// using sort method arrange array elements to assending format 
+arr.sort()
+console.log(arr);
