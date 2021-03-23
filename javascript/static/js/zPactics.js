@@ -798,3 +798,7 @@ console.log(two);
 
 const three=nm.reduce((total,item)=>{ return total+item;})
 console.log(three);
+
+const four=nm.reduce((total,item)=>{return total+item},10)
+console.log(four);
+
