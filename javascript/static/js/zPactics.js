@@ -857,6 +857,13 @@ let arr=[1,2,3,4,5,6,7,8,9,'mahmud','hossain']
 // arr.sort()
 // console.log(arr);
 
-// using reverse method to arrange all array elements to decending 
-arr.reverse()
-console.log(arr);
+// // using reverse method to arrange all array elements to decending 
+// arr.reverse()
+// console.log(arr);
+
+
+// pactics of promise 
+// create a promise 
+const lol=fn=>{return new Promise((resolve,reject)=>{if (fn){resolve('i am getting data')}else{reject(' i am error')}})}
+lol(false)
+.then((res)=>{console.log(res);}).catch((err)=>{console.log(err);})
