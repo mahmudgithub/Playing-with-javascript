@@ -1050,3 +1050,12 @@
 //     return item==='mahmud';
 // })
 // console.log(s);
+
+//combine all method
+//combine slice and map
+let arr=[1,2,3,4,5,6,7]
+let s=arr.slice(1,5)
+s.map((item,index)=>{
+    console.log(index);
+    console.log(item);
+})
