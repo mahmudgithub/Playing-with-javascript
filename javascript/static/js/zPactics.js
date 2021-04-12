@@ -1005,6 +1005,13 @@ let arr=['mahmud','hossain','a','b','c',1,2,3,4,5]
 //     console.log(element.sort())
 // })
 //multiply 2 with array element by map method
+// arr.map((item)=>{
+//     console.log(item*2);
+// })
+//use condition in map method
 arr.map((item)=>{
-    console.log(item*2);
+    if (item===2){
+        console.log('i am find value:',`${item}`);
+    }
+    
 })
