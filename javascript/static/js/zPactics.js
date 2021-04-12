@@ -998,9 +998,13 @@ let arr=['mahmud','hossain','a','b','c',1,2,3,4,5]
 //     console.log(item);
 // })
 //use map method
-arr.map((item,index,element)=>{
+// arr.map((item,index,element)=>{
    
-    console.log(index);
-    console.log(item);
-    console.log(element.sort())
+//     console.log(index);
+//     console.log(item);
+//     console.log(element.sort())
+// })
+//multiply 2 with array element by map method
+arr.map((item)=>{
+    console.log(item*2);
 })

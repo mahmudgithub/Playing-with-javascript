@@ -13,6 +13,16 @@
 // //     document.getElementById("test").innerHTML += (index, item ); 
 // //   }
 
+//let arr=['mahmud','hossain','a','b','c',1,2,3,4,5]
+// arr.forEach((item) => {
+//     console.log(item);
+// });
+// //combine sort and foreatch method
+// let lol=arr.sort()
+// lol.forEach((item)=>{
+//     console.log(item);
+// })
+
 
 //map method****************
 // JavaScript এ map() Iterator Method এর কাজ কি?
@@ -27,6 +37,12 @@
 // function myFunction(value, index, array) {
 //   return value * 2;
 // }
+
+//// arr.map((item,index,element)=>{ 
+//     console.log(index);
+//     console.log(item);
+//     console.log(element.sort())
+// })
 
 //es6 style
 // const number1=[1,2,3,4]
