@@ -912,8 +912,17 @@
 // const lol=new person('mahmud',26,'rajshahi')
 // lol.fn()
 
+
+//make an arry
 const arr=[1,2,3,4,5,6,7]
+//access arry 
 console.log(arr);
+//access array by index number
 console.log(arr[3]);
+//change array index value
 arr[3]='mahmud'
 console.log(arr[3]);
+//add new array value by index number
+arr[7]='cool'
+console.log(arr[7]);
+console.log(arr);
