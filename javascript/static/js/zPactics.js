@@ -942,3 +942,6 @@ console.log(arr);
 //arry unshift method
 arr.unshift('one')
 console.log(arr);
+//arry shift method
+arr.shift()
+console.log(arr);
