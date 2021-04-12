@@ -928,3 +928,8 @@ console.log(arr[7]);
 console.log(arr);
 //determine array length
 console.log(arr.length);
+//apply for loop in array 
+for (let i=0; i<arr.length; i++)
+{
+    console.log(i);
+}
