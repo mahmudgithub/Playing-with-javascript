@@ -953,3 +953,6 @@ console.log(arr);
 //join method
 const arr2=['a','b','c']
 console.log(arr.join(','+arr2));
+//copy arry 
+let arr3=arr
+console.log(arr3);
