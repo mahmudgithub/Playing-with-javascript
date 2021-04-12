@@ -1009,9 +1009,15 @@ let arr=['mahmud','hossain','a','b','c',1,2,3,4,5]
 //     console.log(item*2);
 // })
 //use condition in map method
-arr.map((item)=>{
-    if (item===2){
-        console.log('i am find value:',`${item}`);
-    }
-    
+// arr.map((item)=>{
+//     if (item===2){
+//         console.log('i am find value:',`${item}`);
+//     }   
+// })
+//filter method
+let lo=arr.filter((item,index)=>{
+    console.log(item%2==1);
+    return item=='mahmud';
+
 })
+console.log(lo);

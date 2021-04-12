@@ -48,11 +48,19 @@
 // const number1=[1,2,3,4]
 // const number2=number1.map((item ,index,Array)=>{
 //     console.log(index,item,Array);
-//    return `${index} ${item*2} <br>`;
-   
+//    return `${index} ${item*2} <br>`;  
 // })
 // document.getElementById('a').innerHTML=number2
-
+//multiply 2 with array element by map method
+// arr.map((item)=>{
+//     console.log(item*2);
+// })
+//use condition in map method
+// arr.map((item)=>{
+//     if (item===2){
+//         console.log('i am find value:',`${item}`);
+//     }   
+// })
 
 
 
