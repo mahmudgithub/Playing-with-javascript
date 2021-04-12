@@ -950,3 +950,6 @@ console.log(arr.indexOf('nowsin'));
 //splice methoc
 arr.splice(1,3)
 console.log(arr);
+//join method
+const arr2=['a','b','c']
+console.log(arr.join(','+arr2));
