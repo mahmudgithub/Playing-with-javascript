@@ -933,3 +933,6 @@ for (let i=0; i<arr.length; i++)
 {
     console.log(i);
 }
+//use puhs method in arry 
+arr.push('lamyaa')
+console.log(arr);
