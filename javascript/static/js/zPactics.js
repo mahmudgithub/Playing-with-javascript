@@ -989,13 +989,18 @@
 //es6 array all methods
 //for eactch method
 let arr=['mahmud','hossain','a','b','c',1,2,3,4,5]
-arr.forEach((item) => {
+// arr.forEach((item) => {
+//     console.log(item);
+// });
+// //combine sort and foreatch method
+// let lol=arr.sort()
+// lol.forEach((item)=>{
+//     console.log(item);
+// })
+//use map method
+arr.map((item,index,element)=>{
+   
+    console.log(index);
     console.log(item);
-});
-//combine sort and foreatch method
-let lol=arr.sort()
-lol.forEach((item)=>{
-    console.log(item);
+    console.log(element.sort())
 })
-//
-

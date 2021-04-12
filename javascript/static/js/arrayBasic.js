@@ -257,6 +257,8 @@
 // console.log(num2);
 
 
+
+
 ///pactics all method at a serial
 //make an arry
 // const arr=[1,2,3,4,5,6,7,'nowsin']
