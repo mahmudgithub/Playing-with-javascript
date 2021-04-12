@@ -1033,8 +1033,14 @@
 // },100)
 // console.log(s);
 //every method
-let arr=[1,2,3,4,5,6]
-let s=arr.every((item)=>{
-    return item<7;
+// let arr=[1,2,3,4,5,6]
+// let s=arr.every((item)=>{
+//     return item<7;
+// })
+// console.log(s);
+
+let arr=[1,2,3,4,5]
+let s=arr.some((item)=>{
+    return item<2;
 })
 console.log(s);
