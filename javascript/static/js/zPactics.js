@@ -1027,3 +1027,8 @@ let p=arr.reduce((item,totall)=>{
     return item+totall;
 })
 console.log(p);
+//reduce method with initial value
+let s=arr.reduce((item,toall)=>{
+    return item+toall;
+},100)
+console.log(s);
