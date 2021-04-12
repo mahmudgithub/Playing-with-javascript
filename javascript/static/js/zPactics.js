@@ -936,3 +936,6 @@ for (let i=0; i<arr.length; i++)
 //use puhs method in arry 
 arr.push('lamyaa')
 console.log(arr);
+//pop method on arry 
+arr.pop()
+console.log(arr);
