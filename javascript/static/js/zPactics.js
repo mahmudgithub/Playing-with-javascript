@@ -967,3 +967,7 @@ console.log(fruits.join('+'));  //style as wise
 console.log(fruits.toString(','));  //commonly use comma
 //concrete method 
 console.log(arr.concat(fruits));
+//sort method
+console.log(arr.sort());
+//all method in one statement
+console.log(arr.concat(fruits).sort().join('++'));
