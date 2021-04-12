@@ -965,3 +965,5 @@ console.log(fruits.toString(','));
 var fruits = ["Banana", "Orange", "Apple", "Mango"];
 console.log(fruits.join('+'));  //style as wise 
 console.log(fruits.toString(','));  //commonly use comma
+//concrete method 
+console.log(arr.concat(fruits));
