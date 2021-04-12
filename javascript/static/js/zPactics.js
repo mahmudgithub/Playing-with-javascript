@@ -947,3 +947,6 @@ arr.shift()
 console.log(arr);
 //index of methoc
 console.log(arr.indexOf('nowsin'));
+//splice methoc
+arr.splice(1,3)
+console.log(arr);
