@@ -939,3 +939,6 @@ console.log(arr);
 //pop method on arry 
 arr.pop()
 console.log(arr);
+//arry unshift method
+arr.unshift('one')
+console.log(arr);
