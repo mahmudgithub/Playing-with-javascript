@@ -977,3 +977,7 @@ console.log(arr.reverse());
 console.log(arr.sort());
 //decending method
 console.log(arr.sort(function(a,b){return b-a}));
+//difference btween revense and decending method
+console.log(arr);
+console.log(arr.reverse());
+console.log(arr.sort(function(a,b){return b-a}));
