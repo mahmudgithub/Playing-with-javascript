@@ -988,7 +988,7 @@
 
 //es6 array all methods
 //for eactch method
-let arr=['mahmud','hossain','a','b','c',1,2,3,4,5]
+// let arr=['mahmud','hossain','a','b','c',1,2,3,4,5]
 // arr.forEach((item) => {
 //     console.log(item);
 // });
@@ -1015,9 +1015,15 @@ let arr=['mahmud','hossain','a','b','c',1,2,3,4,5]
 //     }   
 // })
 //filter method
-let lo=arr.filter((item)=>{
-    console.log(item%2==1);
-    return item=='mahmud';
+// let lo=arr.filter((item)=>{
+//     console.log(item%2==1);
+//     return item=='mahmud';
 
+// })
+// console.log(lo);
+//reduce method 
+let arr=[1,2,3,4,5]
+let p=arr.reduce((item,totall)=>{
+    return item+totall;
 })
-console.log(lo);
+console.log(p);
