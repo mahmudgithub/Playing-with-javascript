@@ -983,3 +983,14 @@
 // console.log(arr.sort(function(a,b){return b-a}));
 // //last indexOf method
 // console.log(arr.lastIndexOf(5));
+
+
+
+//es6 array all methods
+//for eactch method
+let arr=['mahmud','hossain','a','b','c',1,2,3,4,5]
+arr.forEach((item) => {
+    console.log(item);
+    
+});
+
