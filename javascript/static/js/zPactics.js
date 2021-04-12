@@ -971,3 +971,5 @@ console.log(arr.concat(fruits));
 console.log(arr.sort());
 //all method in one statement
 console.log(arr.concat(fruits).sort().join('++'));
+//reverse method 
+console.log(arr.reverse());
