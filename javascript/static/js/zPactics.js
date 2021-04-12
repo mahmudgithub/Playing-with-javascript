@@ -914,7 +914,7 @@
 
 
 //make an arry
-const arr=[1,2,3,4,5,6,7]
+const arr=[1,2,3,4,5,6,7,'nowsin']
 //access arry 
 console.log(arr);
 //access array by index number
@@ -945,3 +945,5 @@ console.log(arr);
 //arry shift method
 arr.shift()
 console.log(arr);
+//index of methoc
+console.log(arr.indexOf('nowsin'));
