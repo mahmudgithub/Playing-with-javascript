@@ -981,3 +981,5 @@ console.log(arr.sort(function(a,b){return b-a}));
 console.log(arr);
 console.log(arr.reverse());
 console.log(arr.sort(function(a,b){return b-a}));
+//last indexOf method
+console.log(arr.lastIndexOf(5));
