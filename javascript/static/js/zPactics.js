@@ -991,6 +991,11 @@
 let arr=['mahmud','hossain','a','b','c',1,2,3,4,5]
 arr.forEach((item) => {
     console.log(item);
-    
 });
+//combine sort and foreatch method
+let lol=arr.sort()
+lol.forEach((item)=>{
+    console.log(item);
+})
+//
 
