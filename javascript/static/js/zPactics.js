@@ -1079,4 +1079,9 @@
 //     })
 // }
 // fn(1,10)
-
+//make a empty arry and then input value 
+// let arr=[]
+// for(let i=0;i<=10;i++){
+//     arr.push(i)
+// }
+// console.log(arr);

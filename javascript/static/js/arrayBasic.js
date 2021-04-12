@@ -259,6 +259,35 @@
 
 
 
+//make a empty arry and then input value 
+// let arr=[]
+// for(let i=0;i<=10;i++){
+//     arr.push(i)
+// }
+// console.log(arr);
+
+//use range function 
+// function range(start, end) {
+//     var ans = [];
+//     for (let i = start; i <= end; i++) {
+//         ans.push(i);
+//     }
+//     return ans;
+// }
+// console.log(range(1,1000));
+// let arr=[];
+// function fn (a,z){
+//     let arr=[];
+//     for(let i=0; i<=z; i++){
+//         arr.push(i);
+//     }
+//     arr.map((item)=>{
+//         console.log(item);
+//     })
+// }
+// fn(1,10)
+
+
 ///pactics all method at a serial
 //make an arry
 // const arr=[1,2,3,4,5,6,7,'nowsin']
