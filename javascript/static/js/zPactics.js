@@ -899,15 +899,16 @@
 // const two=new fn(5,5)
 // two
 
-const person=function (name,age,roll){
-    this.name=name,
-    this.age=age,
-    this.roll=roll
-    this.fn=function () {
+// const person=function (name,age,roll){
+//     this.name=name,
+//     this.age=age,
+//     this.roll=roll
+//     this.fn=function () {
  
-        console.log(this.name);
-    }
+//         console.log(this.name);
+//     }
 
-}
-const lol=new person('mahmud',26,'rajshahi')
-lol.fn()
+// }
+// const lol=new person('mahmud',26,'rajshahi')
+// lol.fn()
+
