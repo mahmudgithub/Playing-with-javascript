@@ -1,3 +1,2 @@
-arr.map((item)=>{
-//     console.log(item*2);
-// })
+return item<7;
+ 

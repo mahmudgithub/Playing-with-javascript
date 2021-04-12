@@ -1021,14 +1021,20 @@
 
 // })
 // console.log(lo);
-//reduce method 
-let arr=[1,2,3,4,5]
-let p=arr.reduce((item,totall)=>{
-    return item+totall;
+// //reduce method 
+// let arr=[1,2,3,4,5]
+// let p=arr.reduce((item,totall)=>{
+//     return item+totall;
+// })
+// console.log(p);
+// //reduce method with initial value
+// let s=arr.reduce((item,toall)=>{
+//     return item+toall;
+// },100)
+// console.log(s);
+//every method
+let arr=[1,2,3,4,5,6]
+let s=arr.every((item)=>{
+    return item<7;
 })
-console.log(p);
-//reduce method with initial value
-let s=arr.reduce((item,toall)=>{
-    return item+toall;
-},100)
 console.log(s);
