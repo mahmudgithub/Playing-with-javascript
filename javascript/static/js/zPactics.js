@@ -1015,7 +1015,7 @@ let arr=['mahmud','hossain','a','b','c',1,2,3,4,5]
 //     }   
 // })
 //filter method
-let lo=arr.filter((item,index)=>{
+let lo=arr.filter((item)=>{
     console.log(item%2==1);
     return item=='mahmud';
 
