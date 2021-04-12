@@ -973,3 +973,5 @@ console.log(arr.sort());
 console.log(arr.concat(fruits).sort().join('++'));
 //reverse method 
 console.log(arr.reverse());
+//numerical arry value short 
+console.log(arr.sort());
