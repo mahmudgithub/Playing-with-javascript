@@ -1,2 +1,1 @@
-return item<7;
- 
+ // let arr=[];

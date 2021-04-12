@@ -1059,6 +1059,7 @@
 //     console.log(index);
 //     console.log(item);
 // })
+//use range function 
 // function range(start, end) {
 //     var ans = [];
 //     for (let i = start; i <= end; i++) {
@@ -1067,14 +1068,15 @@
 //     return ans;
 // }
 // console.log(range(1,1000));
+// let arr=[];
+// function fn (a,z){
+//     let arr=[];
+//     for(let i=0; i<=z; i++){
+//         arr.push(i);
+//     }
+//     arr.map((item)=>{
+//         console.log(item);
+//     })
+// }
+// fn(1,10)
 
-var fn=(start,end)=>{
-    var arr=[];
-for(var i=start; i<=end; i++);
-{
-    arr.push(i);
-}
-return arr;
-
-}
-console.log(fn(2,20));
