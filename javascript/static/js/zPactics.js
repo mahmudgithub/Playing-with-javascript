@@ -1052,10 +1052,29 @@
 // console.log(s);
 
 //combine all method
-//combine slice and map
-let arr=[1,2,3,4,5,6,7]
-let s=arr.slice(1,5)
-s.map((item,index)=>{
-    console.log(index);
-    console.log(item);
-})
+// //combine slice and map
+// let arr=[1,2,3,4,5,6,7]
+// let s=arr.slice(1,5)
+// s.map((item,index)=>{
+//     console.log(index);
+//     console.log(item);
+// })
+// function range(start, end) {
+//     var ans = [];
+//     for (let i = start; i <= end; i++) {
+//         ans.push(i);
+//     }
+//     return ans;
+// }
+// console.log(range(1,1000));
+
+var fn=(start,end)=>{
+    var arr=[];
+for(var i=start; i<=end; i++);
+{
+    arr.push(i);
+}
+return arr;
+
+}
+console.log(fn(2,20));
