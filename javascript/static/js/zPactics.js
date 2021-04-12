@@ -1038,9 +1038,15 @@
 //     return item<7;
 // })
 // console.log(s);
-
-let arr=[1,2,3,4,5]
-let s=arr.some((item)=>{
-    return item<2;
-})
-console.log(s);
+//some method
+// let arr=[1,2,3,4,5]
+// let s=arr.some((item)=>{
+//     return item<2;
+// })
+// console.log(s);
+// //find method
+// let arr=[1,2,3,'mahmud']
+// let s=arr.find((item)=>{
+//     return item==='mahmud';
+// })
+// console.log(s);
