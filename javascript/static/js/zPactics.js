@@ -956,3 +956,12 @@ console.log(arr.join(','+arr2));
 //copy arry 
 let arr3=arr
 console.log(arr3);
+//to string method
+arr.toString()
+console.log(arr);
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+console.log(fruits.toString(','));
+//difference btween toString and join method
+var fruits = ["Banana", "Orange", "Apple", "Mango"];
+console.log(fruits.join('+'));  //style as wise 
+console.log(fruits.toString(','));  //commonly use comma

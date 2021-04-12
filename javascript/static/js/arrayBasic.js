@@ -164,6 +164,9 @@
 // var fruits = ["Banana", "Orange", "Apple", "Mango"];
 // document.getElementById("a").innerHTML = fruits.toString();
 // document.getElementById("a").innerHTML = fruits.join();
+//console.log(fruits.toString(','));
+//console.log(fruits.join('+'));
+
 
 
 
