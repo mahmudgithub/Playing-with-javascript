@@ -926,3 +926,5 @@ console.log(arr[3]);
 arr[7]='cool'
 console.log(arr[7]);
 console.log(arr);
+//determine array length
+console.log(arr.length);
