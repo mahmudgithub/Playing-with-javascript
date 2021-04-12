@@ -975,3 +975,5 @@ console.log(arr.concat(fruits).sort().join('++'));
 console.log(arr.reverse());
 //numerical arry value short 
 console.log(arr.sort());
+//decending method
+console.log(arr.sort(function(a,b){return b-a}));
