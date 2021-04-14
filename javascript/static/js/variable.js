@@ -16,3 +16,10 @@
 // console.log(z);
 
 
+//distructuring
+//it call unpake variable in python
+let names=['mamud','hossain','nannu']
+let [x,y,z]=names;
+console.log(x);
+console.log(y);
+console.log(z);
