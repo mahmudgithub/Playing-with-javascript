@@ -23,3 +23,5 @@ let [x,y,z]=names;
 console.log(x);
 console.log(y);
 console.log(z);
+console.log(names);
+console.log(names[0]);
