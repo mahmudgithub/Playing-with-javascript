@@ -546,10 +546,10 @@
 // document.getElementById('test').innerHTML=num3
 
 //more advance arry function
-let arrr=[]
-let i=0
-for(i;i<3;i++){
-    let po=prompt('enter name:')
-    arrr.push(po)
-}
-console.log(arrr);
+// let arrr=[]
+// let i=0
+// for(i;i<3;i++){
+//     let po=prompt('enter name:')
+//     arrr.push(po)
+// }
+// console.log(arrr);
