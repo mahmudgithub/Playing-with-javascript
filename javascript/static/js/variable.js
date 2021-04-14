@@ -43,10 +43,10 @@
 
 // convert a local variable to global by this key word 
 //this same work done in python using globa key word
-function fn(){
-     this.names='mahmud';
-    let name2='hossain';
-}
-fn()
-console.log(names);
-// console.log(name2);
+// function fn(){
+//      this.names='mahmud';
+//     let name2='hossain';
+// }
+// fn()
+// console.log(names);
+// // console.log(name2);

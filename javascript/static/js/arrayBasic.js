@@ -31,8 +31,11 @@
 
 
 // length method ************************
+// same function in python use len 
 //// অ্যারেতে কয়টা আইটেম আছে সেটা জানার জন্যে lengthপ্রপার্টিজ অ্যাক্সেস করতে চাই 
 //// তাহলে আমাদের এভাবে লিখতে হবে arrName.length
+// console.log(arr.length);
+// let arr=['mamud']
 // console.log(arr.length);
 
 
