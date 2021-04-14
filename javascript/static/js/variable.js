@@ -18,10 +18,25 @@
 
 //distructuring
 //it call unpake variable in python
-let names=['mamud','hossain','nannu']
-let [x,y,z]=names;
-console.log(x);
-console.log(y);
-console.log(z);
-console.log(names);
-console.log(names[0]);
+// let names=['mamud','hossain','nannu']
+// let [x,y,z]=names;
+// console.log(x);
+// console.log(y);
+// console.log(z);
+// console.log(names);
+// console.log(names[0]);
+
+
+// // global variable
+// let names='mahmud'
+// function fn(){
+//     console.log(names);
+// }
+// fn()
+// local variable
+// name2='mahmd'
+// function fn2(){
+//     let name2='hossain'
+// }
+// fn2()
+// console.log(name2);
