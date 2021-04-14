@@ -544,3 +544,12 @@
 // //find city==rajshahi in every object
 // const num=num1.every((item)=>{return item.city=='rajshai'})
 // document.getElementById('test').innerHTML=num3
+
+//more advance arry function
+let arrr=[]
+let i=0
+for(i;i<3;i++){
+    let po=prompt('enter name:')
+    arrr.push(po)
+}
+console.log(arrr);

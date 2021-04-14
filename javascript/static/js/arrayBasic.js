@@ -287,6 +287,8 @@
 // }
 // fn(1,10)
 
+////advance array more pactics link
+//https://dev.to/ycmjason/how-to-create-range-in-javascript-539i 
 
 ///pactics all method at a serial
 //make an arry

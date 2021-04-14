@@ -1085,3 +1085,28 @@
 //     arr.push(i)
 // }
 // console.log(arr);
+
+// function range(start, end) {
+//     if(start === end) return [start];
+//     return [start, ...range(start + 1, end)];
+// }
+// console.log(range(1,10));
+
+
+// function myFunction() {
+//     var person = prompt("Please enter your name", "Harry Potter");
+//     if (person != null) {
+//     //   document.getElementById("demo").innerHTML =
+//     //   "Hello " + person + "! How are you today?";
+//     console.log("Hello " + person + "! How are you today?");
+//     }
+//   }
+//   myFunction()
+
+//   var arr=[]
+//   for (let i=0;i<3;i++){
+//     var po=prompt('enter name:')
+//     arr.push(po)
+//   }
+//   console.log(arr);
+
