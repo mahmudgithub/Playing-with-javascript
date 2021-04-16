@@ -1110,3 +1110,8 @@
 //   }
 //   console.log(arr);
 
+// arry datastructure in javascript 
+let arr=['mahmud','hossain','nannu']
+console.log(arr[0]);
+
+

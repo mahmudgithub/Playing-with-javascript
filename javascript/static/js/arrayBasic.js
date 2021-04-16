@@ -42,7 +42,12 @@
 
 
 // use for loop to access eatch array elements ******************
+// same method in python in easy 
 // for (let i=0 ; i<arr.length; i++){
+//     console.log(i);
+// }
+// let arr=[1,2,3,4,5,6,7]
+// for(let i=0; i<arr.length;i++){
 //     console.log(i);
 // }
 
@@ -51,6 +56,7 @@
 
 //push method ********************
 //অ্যারেতে শেষের দিক হতে কোনো নতুন আইটেম অ্যাড করতেঃ
+// same method in python use append 
 //arrName.push('Shafiq');
 // arr.push('last')
 // console.log(arr);
@@ -59,6 +65,7 @@
 
 //pop method ********************
 //অ্যারেতে শেষের দিক হতে আইটেম রিমুভ করতেঃ
+// same thod in python by pop[] index 
 //arrName.pop();
 // arr.pop()
 // console.log(arr);
